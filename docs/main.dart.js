@@ -95256,7 +95256,9 @@ q=A.f4(new A.fT(s,new A.agy(),r),r.i("v.E"))
 if(q.a===0){o.push(A.ix(A.cN(p,p,!0,A.bG(B.fq,p,40),p,new A.agz(this),B.Um,B.U6,p),p,p,p))
 o.push(new A.iw("Not sharing with any Hugger yet :(",p))}else{B.b.T(o,q)
 o.push(new A.iw("Here are listed the Huggers you are sharing your location with.\nYou can silently add or remove any Hugger at any time.",p))
-o.push(new A.iw("Huggers can be grouped into different Location Files.\nYour location will be updated only on the Location File configured at Settings.",p))}}return o}}
+s=b.y.a
+s===$&&A.a()
+o.push(new A.iw("Huggers Group in use: "+s+"\nYour location will be updated only in the currently configured group.",p))}}return o}}
 A.agB.prototype={
 $3(a,b,c){var s=this.a
 return new A.pb(c.Q,s.c,s.a9s(a,c),null)},
@@ -95315,7 +95317,7 @@ n=A.ai(new A.ad(o,new A.agE(this,b,p),q),!0,q.i("b5.E"))
 B.b.T(l,n)
 if(n.length===0)l.push(new A.iw("No one is sharing with you yet :(",m))
 else{this.arE(p,o)
-if(b.CW)l.push(new A.iw("Long press on a Hugger to send a Virtual Hug :)",m))}}else B.b.T(l,A.aOV())
+if(b.CW)l.push(new A.iw("Tap on a Hugger to more details.\nLong press oto send a Virtual Hug :)",m))}}else B.b.T(l,A.aOV())
 return A.aK3(A.qP(l,B.eV),new A.agF(this))},
 arE(a,b){return B.b.Cg(b,new A.agH(this,a))}}
 A.agG.prototype={
