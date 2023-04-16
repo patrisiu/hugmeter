@@ -92795,14 +92795,16 @@ case 3:s=7
 return A.t(p.z0(0),$async$q7)
 case 7:o=b
 o.toString
-o=new A.uR().Ws(o)
-s=4
-break
-case 5:o=null
-case 4:q=o
+q=new A.uR().Ws(o)
 s=1
 break
-case 1:return A.l(q,r)}})
+s=4
+break
+case 5:A.cX("geolocatorCheckPermissionEnabled returned false")
+q=null
+s=1
+break
+case 4:case 1:return A.l(q,r)}})
 return A.m($async$q7,r)},
 z0(a){var s=0,r=A.n(t.Yi),q,p=2,o,n=this,m,l,k,j,i
 var $async$z0=A.j(function(b,c){if(b===1){o=c
@@ -92860,12 +92862,14 @@ oI(){var s=0,r=A.n(t.E4),q,p=this,o,n
 var $async$oI=A.j(function(a,b){if(a===1)return A.k(b,r)
 while(true)switch(s){case 0:s=3
 return A.t(p.q7(),$async$oI)
-case 3:o=b
-n=p.x
-n===$&&A.a()
-n.e.f=o
-n.M()
-q=o
+case 3:n=b
+A.cX("=========== fetchMyLocation")
+A.cX(J.bc(n))
+o=p.x
+o===$&&A.a()
+o.e.f=n
+o.M()
+q=n
 s=1
 break
 case 1:return A.l(q,r)}})
@@ -92946,8 +92950,7 @@ return A.m($async$Lo,r)},
 Lm(a,b){return this.au4(a,b)},
 au4(a,b){var s=0,r=A.n(t.H),q=this,p,o,n,m
 var $async$Lm=A.j(function(c,d){if(c===1)return A.k(d,r)
-while(true)switch(s){case 0:A.cX("======== HUG LISTENER =========")
-if(b==null)A.cX("EERROOOR ======== HUG LISTENER =========")
+while(true)switch(s){case 0:if(b==null)A.cX("EERROOOR ======== HUG LISTENER =========")
 else{p=B.Z.lq(0,B.Z.lx(b,null),null)
 o=A.afQ()
 o.d=!1
@@ -92960,9 +92963,7 @@ o.b=n.h(p,"displayName")
 o.f=new A.uR().Wr(p)
 n=q.x
 n===$&&A.a()
-n.ayV(o)
-A.cX(a)
-A.cX(p)}return A.l(null,r)}})
+n.ayV(o)}return A.l(null,r)}})
 return A.m($async$Lm,r)},
 Ln(a){return this.au6(a)},
 au6(a){var s=0,r=A.n(t.H),q=this,p,o
@@ -95776,8 +95777,8 @@ $R:3,
 $S:23}
 A.UF.prototype={
 H(a){return A.e4(new A.auq(this),t.B)},
-a9p(a,b){var s=null,r=b.aP$!=null
-return A.cC(s,s,r,s,s,s,B.Uu,new A.oH(r,b.dy,B.fp,"Virtual Hug Notification",s),A.asn(new A.aup(this,a,b),b.cx))},
+a9p(a,b){var s=null
+return A.cC(s,s,!1,s,s,s,B.Uu,new A.oH(b.aP$!=null,b.dy,B.fp,"Virtual Hug Notification",s),A.asn(new A.aup(this,a,b),b.cx))},
 Hr(a,b,c){return this.af4(a,b,c)},
 af4(a,b,c){var s=0,r=A.n(t.H),q,p
 var $async$Hr=A.j(function(d,e){if(d===1)return A.k(e,r)
