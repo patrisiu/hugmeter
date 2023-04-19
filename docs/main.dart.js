@@ -25867,10 +25867,9 @@ _.w=d
 _.x=e
 _.y=null
 _.z=f
-_.ay=_.ax=_.at=_.as=_.Q=!1
-_.ch=!0
-_.CW=g
-_.dy=_.dx=_.db=_.cy=_.cx=!1
+_.CW=_.ch=_.ay=_.ax=_.at=_.as=_.Q=!1
+_.cx=g
+_.dy=_.dx=_.db=_.cy=!1
 _.fr="Disabled"
 _.fx="Active"
 _.fy=h
@@ -92453,7 +92452,7 @@ p.as=!1
 p.M()
 p.ay=!1
 p.M()
-p.CW=A.fZ(t.N)
+p.cx=A.fZ(t.N)
 p.M()
 p.fr="Disabled"
 p.M()
@@ -92964,11 +92963,11 @@ k=A.fg(J.ac(l.a.a,"debug"))
 m.dx=k===!0
 m.M()
 k=A.fg(J.ac(l.a.a,"virtualHugPushNotification"))
-m.cx=k===!0
+m.CW=k===!0
 m.M()
 k=l.a.NE("hugNotificationDisabled")
 if(k==null)k=A.b([],t.s)
-m.CW=A.f6(k,t.N)
+m.cx=A.f6(k,t.N)
 m.M()
 k=A.fg(J.ac(l.a.a,"travelHugEnabled"))
 m.db=k===!0
@@ -93301,7 +93300,7 @@ amj(a){var s=0,r=A.o(t.H),q=this,p,o
 var $async$o8=A.j(function(b,c){if(b===1)return A.k(c,r)
 while(true)switch(s){case 0:o=q.x
 o===$&&A.a()
-o.cx=a
+o.CW=a
 o.M()
 s=2
 return A.t(q.b.m2("virtualHugPushNotification",a),$async$o8)
@@ -93389,7 +93388,7 @@ aog(a){var s=0,r=A.o(t.H),q=this,p,o,n
 var $async$AP=A.j(function(b,c){if(b===1)return A.k(c,r)
 while(true)switch(s){case 0:n=q.x
 n===$&&A.a()
-p=n.CW
+p=n.cx
 p.G(0,a)
 n=n.d
 n===$&&A.a()
@@ -93406,7 +93405,7 @@ axS(a){var s=0,r=A.o(t.H),q=this,p,o,n
 var $async$E0=A.j(function(b,c){if(b===1)return A.k(c,r)
 while(true)switch(s){case 0:n=q.x
 n===$&&A.a()
-p=n.CW
+p=n.cx
 p.E(0,a)
 n=n.d
 n===$&&A.a()
@@ -93423,7 +93422,7 @@ ann(a){var s=0,r=A.o(t.H),q=this,p,o
 var $async$uN=A.j(function(b,c){if(b===1)return A.k(c,r)
 while(true)switch(s){case 0:o=q.x
 o===$&&A.a()
-o.CW=a
+o.cx=a
 o.M()
 p=q.b
 if(a.a===0)p.E(0,"hugNotificationDisabled")
@@ -94200,7 +94199,7 @@ n=A.ak(new A.ad(o,new A.ag9(this,b,p),q),!0,q.i("b8.E"))
 B.b.T(l,n)
 if(n.length===0)l.push(new A.io("No one is sharing with you yet :(",m))
 else{this.arG(p,o)
-if(b.cx)l.push(new A.io("Tap on a Hugger for more details.\nLong press to send a Virtual Hug :)",m))}}else B.b.T(l,A.aNI())
+if(b.CW)l.push(new A.io("Tap on a Hugger for more details.\nLong press to send a Virtual Hug :)",m))}}else B.b.T(l,A.aNI())
 return A.aJb(A.qD(l,B.eT),new A.aga(this))},
 arG(a,b){return B.b.C5(b,new A.agc(this,a))}}
 A.agb.prototype={
@@ -95152,7 +95151,7 @@ q=n.d
 p=r.geS()
 o=q.x
 o===$&&A.a()
-s.push(new A.B3(r,k,o.CW.q(0,p),n.a.r,q,new A.aE(4,0,4,0),new A.dT(l,t.kK)))}l=n.a
+s.push(new A.B3(r,k,o.cx.q(0,p),n.a.r,q,new A.aE(4,0,4,0),new A.dT(l,t.kK)))}l=n.a
 if(l.f&&j){l=l.d.f.ax
 l===$&&A.a()
 l=l&&h<=n.d.gEF()?B.A:m}else l=m
@@ -95724,7 +95723,7 @@ $S:23}
 A.UF.prototype={
 H(a){return A.e4(new A.aup(this),t.B)},
 a9o(a,b){var s=null
-return A.cC(s,s,!1,s,s,s,B.Uu,new A.oH(b.aP$!=null,b.dy,B.fp,"Virtual Hug Notification",s),A.asm(new A.auo(this,a,b),b.cx))},
+return A.cC(s,s,!1,s,s,s,B.Uu,new A.oH(b.aP$!=null,b.dy,B.fp,"Virtual Hug Notification",s),A.asm(new A.auo(this,a,b),b.CW))},
 Hp(a,b,c){return this.af3(a,b,c)},
 af3(a,b,c){var s=0,r=A.o(t.H),q,p
 var $async$Hp=A.j(function(d,e){if(d===1)return A.k(e,r)
