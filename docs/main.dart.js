@@ -92068,7 +92068,7 @@ n=$.f2.aO()
 n=J.ac(n.gcG(n).a.c,"email")
 n.toString
 s=3
-return A.t(m.BA(0,l,o,A.fL(n,".",""),p),$async$ow)
+return A.t(m.BA(0,l,o,A.fL(n,".","%2E"),p),$async$ow)
 case 3:s=4
 return A.t(A.kn(A.aJ(0,0,0,0,0,2),null,t.H),$async$ow)
 case 4:q=p
@@ -92121,7 +92121,7 @@ n=J.ac(n.gcG(n).a.c,"email")
 n.toString
 n=A.hv(n)
 p=A.hv(b)
-q=o.v_(n,p,A.fL(b,".",""),a)
+q=o.v_(n,p,A.fL(b,".","%2E"),a)
 s=1
 break
 case 1:return A.l(q,r)}})
@@ -92135,7 +92135,7 @@ o=J.ac(o.gcG(o).a.c,"email")
 o.toString
 o=A.hv(o)
 s=3
-return A.t(p.BL(o,A.fL(b,".",""),a),$async$BM)
+return A.t(p.BL(o,A.fL(b,".","%2E"),a),$async$BM)
 case 3:q=d
 s=1
 break
