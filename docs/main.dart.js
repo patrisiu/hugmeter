@@ -93952,15 +93952,15 @@ return A.p(p.zZ(),$async$hO)
 case 3:n=b
 m=A.OX()
 l=J.ah(n)
-m.a=l.h(n,"lat")
-m.b=l.h(n,"lon")
+m.a=l.h(n,"latitude")
+m.b=l.h(n,"longitude")
 m.c=new A.bX(Date.now(),!1).jc()
 m.x=m.w=m.r=m.f=m.e=m.d=0
 m.y=!1
 o=new A.bX(Date.now(),!1).jc()
 m.z=o
 m.Q=o.gxl()
-m.as=l.h(n,"query")
+m.as=l.h(n,"ip")
 m.at=0
 m.ax=new A.nX().yB(m.z)
 q=m
@@ -93971,7 +93971,7 @@ return A.m($async$hO,r)},
 zZ(){var s=0,r=A.n(t.a),q,p,o,n,m
 var $async$zZ=A.j(function(a,b){if(a===1)return A.k(b,r)
 while(true)switch(s){case 0:s=3
-return A.p(A.b6I(A.b3y("http","ip-api.com","/json",null)),$async$zZ)
+return A.p(A.b6I(A.b3y("http","api.ipbase.com","/v1/json/149.74.49.62",null)),$async$zZ)
 case 3:m=b
 if(m.b!==200)throw A.c(A.cr(m.c))
 p=m.e
