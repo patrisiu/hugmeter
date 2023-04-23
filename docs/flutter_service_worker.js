@@ -23,8 +23,8 @@ const RESOURCES = {
 "version.json": "42d6981c66386402c73403fc69b969a6",
 "favicon.png": "3cfead08706941cef16b511bdf8cfe62",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
-"index.html": "263c2f2bb0e25f24e89d11952392e112",
-"/": "263c2f2bb0e25f24e89d11952392e112"
+"index.html": "e89054d3284edd2a3b10da265c3d0dbe",
+"/": "e89054d3284edd2a3b10da265c3d0dbe"
 };
 
 // The application shell files that are downloaded before a service worker can
