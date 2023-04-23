@@ -93986,7 +93986,7 @@ return A.m($async$hO,r)},
 zZ(){var s=0,r=A.n(t.a),q,p,o,n,m
 var $async$zZ=A.j(function(a,b){if(a===1)return A.k(b,r)
 while(true)switch(s){case 0:s=3
-return A.p(A.b6I(A.b3y("https","ip-api.com","/json",null)),$async$zZ)
+return A.p(A.b6I(A.b3y("https","ip-api.com","/json/",null)),$async$zZ)
 case 3:m=b
 if(m.b!==200)throw A.c(A.cr(m.c))
 p=m.e
