@@ -99023,7 +99023,11 @@ q.aD(0,"photoLink",new A.agX(r))
 q.aD(0,"emailAddress",new A.agY(r))
 s=r.z
 s===$&&A.b()
-if(!s.fx){q.aD(0,"latitude",new A.agZ(r))
+if(!s.fx){s=s.e.e
+if(s==null)s=null
+else{s=s.y
+s===$&&A.b()}s=s===!1}else s=!1
+if(s){q.aD(0,"latitude",new A.agZ(r))
 q.aD(0,"longitude",new A.ah_(r))}return q},
 A4(a){return this.a5K(a)},
 a5K(a){var s=0,r=A.r(t.H),q,p=this
@@ -100887,9 +100891,10 @@ j=k.r
 i=k.d
 s=j?new A.qr(!0,k.c,B.cI,i.geM(i),l):A.bb(i.geM(i),l,l,l,l,l,l,l)
 k=m.a
-j=k.d.e.z
-j===$&&A.b()
-r=k.f&&g!=null&&j&&g<=m.d.gQu()
+j=k.d.e
+if(j==null)j=l
+else{j=j.z
+j===$&&A.b()}r=k.f&&g!=null&&j===!0&&g<=m.d.gQu()
 k=A.cO(l,s,B.n,l,l,l,l,l,l,l,l,l,l)
 if(m.a.d.e!=null){j=new A.cm(Date.now(),!1).kg()
 i=m.a.d.e.c
@@ -115700,7 +115705,7 @@ B.VL=new A.ba("Yes",null,null,null,null,null,null,null,null,null)
 B.VM=new A.ba("Edit the selected Huggers Group:",null,null,null,null,null,null,null,null,null)
 B.VN=new A.ba("The Huggers you are sharing with.",null,null,null,null,null,null,null,null,null)
 B.VO=new A.ba("Hidden Location",null,null,null,null,null,null,null,null,null)
-B.VP=new A.ba("Version 3.0.2",null,null,null,null,null,null,null,null,null)
+B.VP=new A.ba("Version 3.0.3",null,null,null,null,null,null,null,null,null)
 B.VQ=new A.ba("This is not a real-time location tool. The User Location updates when the app is open. There are options to enable periodical updates on the User Location. Location Permission and Autostart Permission should be configured on App Settings to allow HugMeter run in the background. The Location Update frequency configured will be handled according to the Operative System priorities.",null,null,null,null,null,null,null,null,null)
 B.VR=new A.ba("Send Hug Back",null,null,null,null,null,null,null,null,null)
 B.VS=new A.ba("Disabled",null,null,null,null,null,null,null,null,null)
