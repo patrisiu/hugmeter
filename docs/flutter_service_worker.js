@@ -5,15 +5,15 @@ const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/AssetManifest.json": "82f1eef139f2fc1ffca1c96fa6a8ff2a",
+"assets/AssetManifest.smcbin": "9ac05d89018251095477cc6d50b1ad8d",
 "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
 "assets/assets/HugMeter.png": "9e03b39e90cbf7506008eefa7a504427",
 "assets/assets/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
-"assets/fonts/MaterialIcons-Regular.otf": "def0706ab0afa51b8d6ade3b9c502117",
+"assets/fonts/MaterialIcons-Regular.otf": "8cc13ebf233deefd0832dc2c122dd346",
 "assets/NOTICES": "d020364c97a087a80c59ac6563c8b3e4",
 "assets/icons/HugMeter.png": "9e03b39e90cbf7506008eefa7a504427",
 "assets/icons/icon.png": "c6351188d8fcd99eeacaec27eda6ab0b",
-"assets/AssetManifest.bin": "9ac05d89018251095477cc6d50b1ad8d",
-"main.dart.js": "5bf99a5cecac33da0f073276e6c49831",
+"main.dart.js": "397f43abd89749adc9fc7260b224f1d7",
 "canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
 "canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
 "canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
@@ -24,11 +24,11 @@ const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289
 "manifest.json": "7e5a28255187b3245e0df45ad3c368ce",
 "icons/HugMeter-192.png": "0c71dbda12ae44a1b0388c6abd71a777",
 "icons/HugMeter-512.png": "9e03b39e90cbf7506008eefa7a504427",
-"version.json": "3574a9667c1accf52ca58defe3f5dff7",
+"version.json": "4cf1349ac57cd17738cb962490cc5d92",
 "favicon.png": "3cfead08706941cef16b511bdf8cfe62",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-"index.html": "c68517151c7e9f5af472f45723c76a17",
-"/": "c68517151c7e9f5af472f45723c76a17"};
+"index.html": "38d145ed105edefa60baafac15195a23",
+"/": "38d145ed105edefa60baafac15195a23"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
