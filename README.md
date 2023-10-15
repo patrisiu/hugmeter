@@ -6,34 +6,40 @@ Measure distance to next Hug, notify when Hug is close, and share Virtual Hugs!
 
 ### :walking: Distance with the Hugs on the move!
 
-People decide on their own with whom to share their location, and they freely may appear or disappear from your list.
+People decide who to share their location with and can freely join or leave your list.
 
 ### :people_hugging: Share your location with other Huggers
 
-Add or remove the people you trust to share your location and let them know where you're willing to hug!
+Add or remove trusted people to share your location and show them where you're ready to hug!
 
 ### :world_map: Spot all Hugs
 
-Localize them on the map and navigate to your Hug with [Google Maps](http://maps.google.com/).
+Locate them on the map and navigate to your Hug with [Google Maps](http://maps.google.com/).
 
 ### :purple_heart: Send Virtual Hugs
 
-Let your Huggers know that you wish hug them even though the distance!
+Let your Huggers know you want to hug them, no matter the distance!
 
-### :stopwatch: Configure when share your location
+### :stopwatch: Share your location periodically
 
-Every 15min, hourly, once a day... or simply when the app is open. You decide how often to share your location with your
-trusted Huggers!
+At your discretion, you can share your location with your trusted Huggers every 15 minutes, hourly, once a day, when the
+app is open, or remain completely hidden!
+
+### :leftwards_arrow_with_hook: Travel Hug: Stay Updated on the Go
+
+Are you on your way to meet a Hugger or traveling to a distant destination? You can enable the Travel Hug feature to
+keep your location updated based on the distance. The closer you get, the more frequent the updates until you reach your
+destination!
 
 ### :bell: Receive a notification when a Hug is approaching!
 
-Get ready to hug based on distance and latest activity updates.
+Prepare for hugs based on distance and the latest activity updates.
 
 ### :open_file_folder: Manage groups of Huggers
 
-A festival with friends on different stages! Where has the volleyball group found a spot on the beach? Sharing with your
-family your trip location across the world... You can manage several Location Files shared with different groups of
-Huggers.
+Stay connected and in control by organizing your Huggers into different groups. Whether you're enjoying a festival with
+friends, finding the perfect spot for beach volleyball, or sharing your global travel adventures with family, you can
+manage several Huggers Groups.
 
 ## About
 
@@ -53,6 +59,9 @@ not shared with third parties. For more details, please refer to the [Privacy Po
 Furthermore, the sharing feature is unidirectional, meaning that individuals can choose whom to share their location
 with without expecting a reciprocal sharing response. Users can silently add and remove Huggers without warning to
 preserve their privacy.
+
+In addition, HugMeter allows you to organize your Huggers into different groups, giving you control over whom you share
+your location with and stay connected with loved ones in various ways.
 
 Thanks to the collaboration of the Hug Testers, new features are under development, but the main purpose of the app is
 to help people share love through hugs and let them know we care :)
@@ -185,8 +194,8 @@ via email. Please follow these steps:
    email should be "Account Deletion Request."
 
 2. **Include Required Information**: In the body of the email, provide the following information:
-   - The email address linked to your account.
-   - Any additional details or identifiers that can help us locate your account.
+    - The email address linked to your account.
+    - Any additional details or identifiers that can help us locate your account.
 
 3. **Request Confirmation**: Request a confirmation of your account deletion, which will be sent to your email address.
    This is to ensure that the request was made by the legitimate account holder.
