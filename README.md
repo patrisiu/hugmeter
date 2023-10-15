@@ -37,20 +37,27 @@ Huggers.
 
 ## About
 
-This is a [Flutter](https://flutter.dev/) project for learning purposes. The developed application offers a funny way to
-share an approximated distance to a potential Hug.
+HugMeter started as a [Flutter](https://flutter.dev/) project for learning purposes with the goal of staying connected
+with loved ones by expressing affection through hugs when people are nearby.
 
-This is not a real-time location tool. The User Location updates when the app is open. There are options to enable
-periodical updates on the User Location. Location Permission and Autostart Permission should be configured on App
-Settings to allow HugMeter run in the background. The Location Update frequency configured will be handled according to
-the Operative System priorities.
+Over time, the app has evolved to send alerts when a Hugger is sharing their location and is in close proximity.
+Additionally, a Virtual Hug can be sent across the world, regardless of the distance.
 
-In addition, the application offers an alert option that can be enabled to notify when a potential hug is approaching
-for the last 25 minutes. The Location Update must be enabled for it. This feature does not work on the Web version.
+This is not intended to be a real-time location tracking tool. People can choose to share their approximate location
+periodically —every hour, once per day, or only when using the app— or they can remain completely hidden.
 
-As an extra, Virtual Hugs are available to send a loving reminder about our wish to Hug soon! This feature works with
-the related Location File and only with people on the Huggers list. This feature subscription can be disabled on
-Settings at any moment.
+The application stores the last location notified for those Huggers with the feature enabled, so it may be outdated and
+not entirely reliable. In any case, this information is only used between users who have enabled this feature, and it is
+not shared with third parties. For more details, please refer to the Privacy Policy section.
+
+Furthermore, the sharing feature is unidirectional, meaning that individuals can choose whom to share their location
+with without expecting a reciprocal sharing response. Users can silently add and remove Huggers without warning to
+preserve their privacy.
+
+Thanks to the collaboration of the Hug Testers, new features are under development, but the main purpose of the app is
+to help people share love through hugs and let them know we care.
+
+[![Promo Video](https://patrisiu.github.io/hugmeter/icons/HugMeter-192.png)](https://patrisiu.github.io/hugmeter/files/20230423_HugMeter_VideoPromo.mp4)
 
 ## Privacy Policy
 
