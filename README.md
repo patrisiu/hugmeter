@@ -95,7 +95,7 @@ These Terms of Service ("Terms") govern your use of HugMeter (the "App") provide
 
 **1.1 Eligibility**: To use the App, you must meet the following age requirement:
 
-* If you’re under the age required to manage your own Google Account, you must have your parent or legal guardian’s permission to use a Google Account. Please have your parent or legal guardian read these terms with you.
+* If you’re under the age required to manage your own [Google Account](#7-use-of-google-accounts), you must have your parent or legal guardian’s permission to use a Google Account. Please have your parent or legal guardian read these terms with you.
 
 * If you’re a parent or legal guardian, and you allow your child to use the services, then these terms apply to you, and you’re responsible for your child’s activity on the services.
 
