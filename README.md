@@ -1,6 +1,6 @@
 # HugMeter
 
-Measure the distance to the next Hug, notify when some Hug is getting closer and share Virtual Hugs!
+Measure distance to next Hug, notify when Hug is close, and share Virtual Hugs!
 
 ## Features
 
@@ -55,21 +55,26 @@ with without expecting a reciprocal sharing response. Users can silently add and
 preserve their privacy.
 
 Thanks to the collaboration of the Hug Testers, new features are under development, but the main purpose of the app is
-to help people share love through hugs and let them know we care.
+to help people share love through hugs and let them know we care :)
 
 [![Promo Video](https://patrisiu.github.io/hugmeter/icons/HugMeter-192.png)](https://drive.google.com/file/d/1LNeaW14QaNAP6QoGOluL1UhYnBACPiLo/view?usp=sharing)
 
 ## Privacy Policy
 
-At HugMeter, we take your privacy seriously. We are committed to ensuring that your personal information is protected and that you have a safe and secure experience while using our app.
+At HugMeter, we take your privacy seriously. We are committed to ensuring that your personal information is protected
+and that you have a safe and secure experience while using our app.
 
 ### Information We Collect
 
 We want to make it clear what information we do and do not collect:
 
-* **User-Provided Information**: We do not collect or store any of your personal information, such as your name, contact information, email address, or any other personal data.
+* **User-Provided Information**: We do not collect or store any of your personal information, such as your name, contact
+  information, email address, or any other personal data.
 
-* **Location Data**: We do collect and store the last location data received, but this is done under specific conditions. This location data is only stored for users who have enabled the location-sharing feature in the app. Furthermore, this data is not shared with other users by default; it is only shared with those users whom you have granted permission to access your location.
+* **Location Data**: We do collect and store the last location data received, but this is done under specific
+  conditions. This location data is only stored for users who have enabled the location-sharing feature in the app.
+  Furthermore, this data is not shared with other users by default; it is only shared with those users whom you have
+  granted permission to access your location.
 
 ### Data Sharing
 
@@ -77,55 +82,77 @@ We do not share user data, personal or otherwise, with third parties.
 
 ### Anonymous Usage Data
 
-In addition to location data, we may collect anonymous usage data to improve the functionality and performance of our app. This data is entirely non-identifiable and is used for analytical purposes only.
+In addition to location data, we may collect anonymous usage data to improve the functionality and performance of our
+app. This data is entirely non-identifiable and is used for analytical purposes only.
 
 ### Data Security
 
-We take all necessary measures to ensure the security of your data. Rest assured that your privacy is of utmost importance to us.
+We take all necessary measures to ensure the security of your data. Rest assured that your privacy is of utmost
+importance to us.
 
 ### Contact Us
 
-If you have any questions or concerns regarding your privacy, the use of your data, or the location-sharing feature, please feel free to contact us at hugmeter@patrisiu.com.
+If you have any questions or concerns regarding your privacy, the use of your data, or the location-sharing feature,
+please feel free to contact us at hugmeter@patrisiu.com.
 
 ## Terms of Service
 
-These Terms of Service ("Terms") govern your use of HugMeter (the "App") provided by patrisiu.com ("we," "us," or "our"). By accessing and using the App, you agree to comply with and be bound by these Terms. If you do not agree with any part of these Terms, please refrain from using the App.
+These Terms of Service ("Terms") govern your use of HugMeter (the "App") provided by patrisiu.com ("we," "us," or "
+our"). By accessing and using the App, you agree to comply with and be bound by these Terms. If you do not agree with
+any part of these Terms, please refrain from using the App.
 
 ### 1. App Usage
 
 **1.1 Eligibility**: To use the App, you must meet the following age requirement:
 
-* If you’re under the age required to manage your own [Google Account](#7-use-of-google-accounts), you must have your parent or legal guardian’s permission to use a Google Account. Please have your parent or legal guardian read these terms with you.
+* If you’re under the age required to manage your own [Google Account](#7-use-of-google-accounts), you must have your
+  parent or legal guardian’s permission to use a Google Account. Please have your parent or legal guardian read these
+  terms with you.
 
-* If you’re a parent or legal guardian, and you allow your child to use the services, then these terms apply to you, and you’re responsible for your child’s activity on the services.
+* If you’re a parent or legal guardian, and you allow your child to use the services, then these terms apply to you, and
+  you’re responsible for your child’s activity on the services.
 
-By using the App, you affirm that you meet the specified age requirement and, if applicable, that you have obtained the necessary parental or guardian permission.
+By using the App, you affirm that you meet the specified age requirement and, if applicable, that you have obtained the
+necessary parental or guardian permission.
 
-**1.2 Personal Information**: You agree that any personal information you provide to the App is accurate and complete. You understand and consent to the collection and use of your information as described in our [Privacy Policy](#privacy-policy).
+**1.2 Personal Information**: You agree that any personal information you provide to the App is accurate and complete.
+You understand and consent to the collection and use of your information as described in
+our [Privacy Policy](#privacy-policy).
 
-**1.3 User Accounts**: You may be required to create a user account to access certain features of the App. You are responsible for maintaining the confidentiality of your account information, and you agree to accept responsibility for all activities that occur under your account.
+**1.3 User Accounts**: You may be required to create a user account to access certain features of the App. You are
+responsible for maintaining the confidentiality of your account information, and you agree to accept responsibility for
+all activities that occur under your account.
 
 ### 2. Location Sharing Feature
 
-**2.1 Location Data**: If you choose to enable the location-sharing feature, the App will collect and store your last location data received. This data is used solely for the purpose of sharing your location with other users whom you have granted permission to access it.
+**2.1 Location Data**: If you choose to enable the location-sharing feature, the App will collect and store your last
+location data received. This data is used solely for the purpose of sharing your location with other users whom you have
+granted permission to access it.
 
-**2.2 User Permissions**: You control who can access your location data. Only users to whom you have granted permission can view your location. Your location data is not shared with other users by default.
+**2.2 User Permissions**: You control who can access your location data. Only users to whom you have granted permission
+can view your location. Your location data is not shared with other users by default.
 
-**2.3 Accuracy**: The location data shared is approximate and may not always be accurate. You agree not to rely solely on this data for critical decisions.
+**2.3 Accuracy**: The location data shared is approximate and may not always be accurate. You agree not to rely solely
+on this data for critical decisions.
 
 ### 3. Content and Conduct
 
-**3.1 User-Generated Content**: You are solely responsible for any content you post, submit, or transmit through the App. You agree not to post or share content that is illegal, harmful, or infringing upon the rights of others.
+**3.1 User-Generated Content**: You are solely responsible for any content you post, submit, or transmit through the
+App. You agree not to post or share content that is illegal, harmful, or infringing upon the rights of others.
 
-**3.2 Prohibited Conduct**: You agree not to engage in any conduct that may disrupt or compromise the security or functionality of the App.
+**3.2 Prohibited Conduct**: You agree not to engage in any conduct that may disrupt or compromise the security or
+functionality of the App.
 
 ### 4. Termination
 
-We reserve the right to terminate or suspend your access to the App at our discretion, with or without notice. If you breach any part of these Terms, your rights to use the App will terminate immediately.
+We reserve the right to terminate or suspend your access to the App at our discretion, with or without notice. If you
+breach any part of these Terms, your rights to use the App will terminate immediately.
 
 ### 5. Changes to the Terms
 
-We may update and change these Terms from time to time. It is your responsibility to review these Terms periodically to stay informed of any updates. Your continued use of the App after any changes to the Terms constitutes your acceptance of those changes.
+We may update and change these Terms from time to time. It is your responsibility to review these Terms periodically to
+stay informed of any updates. Your continued use of the App after any changes to the Terms constitutes your acceptance
+of those changes.
 
 ### 6. Contact Us
 
@@ -133,36 +160,50 @@ If you have any questions or concerns regarding these Terms, please feel free to
 
 ### 7. Use of Google Accounts
 
-**7.1 Google Authentication**: To enhance the security and identity verification of our users, we offer the option to sign in using a Google Account. By choosing this method, you agree to the Google Terms of Service and Google Privacy Policy in addition to these Terms.
+**7.1 Google Authentication**: To enhance the security and identity verification of our users, we offer the option to
+sign in using a Google Account. By choosing this method, you agree to the Google Terms of Service and Google Privacy
+Policy in addition to these Terms.
 
-**7.2 Identity Verification**: We may use Google Accounts to verify the identity of users and to provide a higher level of assurance regarding user authenticity. However, we do not have access to your Google Account password or any sensitive information stored in your Google Account.
+**7.2 Identity Verification**: We may use Google Accounts to verify the identity of users and to provide a higher level
+of assurance regarding user authenticity. However, we do not have access to your Google Account password or any
+sensitive information stored in your Google Account.
 
-**7.3 User Responsibility**: You are responsible for the security of your Google Account and should take all necessary precautions to safeguard your account credentials.
+**7.3 User Responsibility**: You are responsible for the security of your Google Account and should take all necessary
+precautions to safeguard your account credentials.
 
 ### 8. Changes to Google Account Usage
 
-We may modify the use of Google Accounts in the App at our discretion. Any changes to how we use Google Accounts will be communicated to users through the App or by other appropriate means.
+We may modify the use of Google Accounts in the App at our discretion. Any changes to how we use Google Accounts will be
+communicated to users through the App or by other appropriate means.
 
 ## Requesting Account Deletion by Email
 
-If you wish to have your account and associated data deleted, you can initiate the process by sending a deletion request via email. Please follow these steps:
+If you wish to have your account and associated data deleted, you can initiate the process by sending a deletion request
+via email. Please follow these steps:
 
-1. **Compose an Email**: Create a new email from the email address associated with your account. The subject of the email should be "Account Deletion Request."
+1. **Compose an Email**: Create a new email from the email address associated with your account. The subject of the
+   email should be "Account Deletion Request."
 
 2. **Include Required Information**: In the body of the email, provide the following information:
-    - The email address linked to your account.
-    - Any additional details or identifiers that can help us locate your account.
+   - The email address linked to your account.
+   - Any additional details or identifiers that can help us locate your account.
 
-3. **Request Confirmation**: Request a confirmation of your account deletion, which will be sent to your email address. This is to ensure that the request was made by the legitimate account holder.
+3. **Request Confirmation**: Request a confirmation of your account deletion, which will be sent to your email address.
+   This is to ensure that the request was made by the legitimate account holder.
 
 4. **Send the Email**: Once you've included all the necessary information, send the email to patrisiu@gmail.com.
 
-5. **Verification**: We will review your request and may contact you for additional verification to confirm your identity.
+5. **Verification**: We will review your request and may contact you for additional verification to confirm your
+   identity.
 
-6. **Processing Time**: Please allow 7-15 business days for your account deletion request to be processed. You will receive a confirmation email once the process is complete.
+6. **Processing Time**: Please allow 7-15 business days for your account deletion request to be processed. You will
+   receive a confirmation email once the process is complete.
 
-7. **Data Retention**: Be aware that some data may be retained as specified in our data retention policy. This may include anonymized or archived information.
+7. **Data Retention**: Be aware that some data may be retained as specified in our data retention policy. This may
+   include anonymized or archived information.
 
-8. **Contact Us**: If you have any questions or encounter issues during the process, you can reach out to us at hugmeter@patrisiu.com.
+8. **Contact Us**: If you have any questions or encounter issues during the process, you can reach out to us at
+   hugmeter@patrisiu.com.
 
-By following these steps and sending an account deletion request via email, you can take control of your account's data and privacy. We are committed to ensuring a smooth and secure account deletion process.
+By following these steps and sending an account deletion request via email, you can take control of your account's data
+and privacy. We are committed to ensuring a smooth and secure account deletion process.
