@@ -142,3 +142,27 @@ If you have any questions or concerns regarding these Terms, please feel free to
 ### 8. Changes to Google Account Usage
 
 We may modify the use of Google Accounts in the App at our discretion. Any changes to how we use Google Accounts will be communicated to users through the App or by other appropriate means.
+
+## Requesting Account Deletion by Email
+
+If you wish to have your account and associated data deleted, you can initiate the process by sending a deletion request via email. Please follow these steps:
+
+1. **Compose an Email**: Create a new email from the email address associated with your account. The subject of the email should be "Account Deletion Request."
+
+2. **Include Required Information**: In the body of the email, provide the following information:
+    - The email address linked to your account.
+    - Any additional details or identifiers that can help us locate your account.
+
+3. **Request Confirmation**: Request a confirmation of your account deletion, which will be sent to your email address. This is to ensure that the request was made by the legitimate account holder.
+
+4. **Send the Email**: Once you've included all the necessary information, send the email to patrisiu@gmail.com.
+
+5. **Verification**: We will review your request and may contact you for additional verification to confirm your identity.
+
+6. **Processing Time**: Please allow 7-15 business days for your account deletion request to be processed. You will receive a confirmation email once the process is complete.
+
+7. **Data Retention**: Be aware that some data may be retained as specified in our data retention policy. This may include anonymized or archived information.
+
+8. **Contact Us**: If you have any questions or encounter issues during the process, you can reach out to us at hugmeter@patrisiu.com.
+
+By following these steps and sending an account deletion request via email, you can take control of your account's data and privacy. We are committed to ensuring a smooth and secure account deletion process.
