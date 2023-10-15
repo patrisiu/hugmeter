@@ -41,7 +41,7 @@ HugMeter started as a [Flutter](https://flutter.dev/) project for learning purpo
 with loved ones by expressing affection through hugs when people are nearby.
 
 Over time, the app has evolved to send alerts when a Hugger is sharing their location and is in close proximity.
-Additionally, [Virtual Hugs](#purpleheart-send-virtual-hugs) can be sent across the world, regardless of the distance.
+Additionally, [Virtual Hugs](#purple_heart-send-virtual-hugs) can be sent across the world, regardless of the distance.
 
 This is not intended to be a real-time location tracking tool. People can choose to share their approximate location
 periodically —every hour, once per day, or only when using the app— or they can remain completely hidden.
