@@ -57,7 +57,7 @@ preserve their privacy.
 Thanks to the collaboration of the Hug Testers, new features are under development, but the main purpose of the app is
 to help people share love through hugs and let them know we care.
 
-[![Promo Video](https://patrisiu.github.io/hugmeter/icons/HugMeter-192.png)](https://patrisiu.github.io/hugmeter/files/20230423_HugMeter_VideoPromo.mp4)
+[![Promo Video](https://patrisiu.github.io/hugmeter/icons/HugMeter-192.png)](https://drive.google.com/file/d/1LNeaW14QaNAP6QoGOluL1UhYnBACPiLo/view?usp=sharing)
 
 ## Privacy Policy
 
