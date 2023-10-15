@@ -20,16 +20,16 @@ Locate them on the map and navigate to your Hug with [Google Maps](http://maps.g
 
 Let your Huggers know you want to hug them, no matter the distance!
 
-### :stopwatch: Share your location periodically
-
-At your discretion, you can share your location with your trusted Huggers every 15 minutes, hourly, once a day, when the
-app is open, or remain completely hidden!
-
 ### :leftwards_arrow_with_hook: Travel Hug: Stay Updated on the Go
 
 Are you on your way to meet a Hugger or traveling to a distant destination? You can enable the Travel Hug feature to
 keep your location updated based on the distance. The closer you get, the more frequent the updates until you reach your
 destination!
+
+### :stopwatch: Share your location periodically
+
+At your discretion, you can share your location with your trusted Huggers every 15 minutes, hourly, once a day, when the
+app is open, or remain completely hidden!
 
 ### :bell: Receive a notification when a Hug is approaching!
 
