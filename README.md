@@ -87,10 +87,58 @@ We take all necessary measures to ensure the security of your data. Rest assured
 
 If you have any questions or concerns regarding your privacy, the use of your data, or the location-sharing feature, please feel free to contact us at hugmeter@patrisiu.com.
 
-Please make sure to adapt this updated privacy policy to accurately reflect your app's data handling practices. It's essential to maintain transparency and clarity for your users to build trust. If you have any doubts or need to ensure legal compliance, consider seeking legal advice or consulting with a privacy professional to finalize your privacy policy.
-
 ## Terms of Service
 
-The HugMeter user has the ownership of the Location File(s) and decides with whom to share it. This is a one-direction
-decision and no notification nor reciprocity request will be sent. There are no limits to silently share or remove
-access to the Location File to other Google Accounts.
+These Terms of Service ("Terms") govern your use of HugMeter (the "App") provided by patrisiu.com ("we," "us," or "our"). By accessing and using the App, you agree to comply with and be bound by these Terms. If you do not agree with any part of these Terms, please refrain from using the App.
+
+### 1. App Usage
+
+**1.1 Eligibility**: To use the App, you must meet the following age requirement:
+
+* If you’re under the age required to manage your own Google Account, you must have your parent or legal guardian’s permission to use a Google Account. Please have your parent or legal guardian read these terms with you.
+
+* If you’re a parent or legal guardian, and you allow your child to use the services, then these terms apply to you, and you’re responsible for your child’s activity on the services.
+
+By using the App, you affirm that you meet the specified age requirement and, if applicable, that you have obtained the necessary parental or guardian permission.
+
+**1.2 Personal Information**: You agree that any personal information you provide to the App is accurate and complete. You understand and consent to the collection and use of your information as described in our [Privacy Policy](#privacy-policy).
+
+**1.3 User Accounts**: You may be required to create a user account to access certain features of the App. You are responsible for maintaining the confidentiality of your account information, and you agree to accept responsibility for all activities that occur under your account.
+
+### 2. Location Sharing Feature
+
+**2.1 Location Data**: If you choose to enable the location-sharing feature, the App will collect and store your last location data received. This data is used solely for the purpose of sharing your location with other users whom you have granted permission to access it.
+
+**2.2 User Permissions**: You control who can access your location data. Only users to whom you have granted permission can view your location. Your location data is not shared with other users by default.
+
+**2.3 Accuracy**: The location data shared is approximate and may not always be accurate. You agree not to rely solely on this data for critical decisions.
+
+### 3. Content and Conduct
+
+**3.1 User-Generated Content**: You are solely responsible for any content you post, submit, or transmit through the App. You agree not to post or share content that is illegal, harmful, or infringing upon the rights of others.
+
+**3.2 Prohibited Conduct**: You agree not to engage in any conduct that may disrupt or compromise the security or functionality of the App.
+
+### 4. Termination
+
+We reserve the right to terminate or suspend your access to the App at our discretion, with or without notice. If you breach any part of these Terms, your rights to use the App will terminate immediately.
+
+### 5. Changes to the Terms
+
+We may update and change these Terms from time to time. It is your responsibility to review these Terms periodically to stay informed of any updates. Your continued use of the App after any changes to the Terms constitutes your acceptance of those changes.
+
+### 6. Contact Us
+
+If you have any questions or concerns regarding these Terms, please feel free to contact us at [Your Contact Information].
+
+### 7. Use of Google Accounts
+
+**7.1 Google Authentication**: To enhance the security and identity verification of our users, we offer the option to sign in using a Google Account. By choosing this method, you agree to the Google Terms of Service and Google Privacy Policy in addition to these Terms.
+
+**7.2 Identity Verification**: We may use Google Accounts to verify the identity of users and to provide a higher level of assurance regarding user authenticity. However, we do not have access to your Google Account password or any sensitive information stored in your Google Account.
+
+**7.3 User Responsibility**: You are responsible for the security of your Google Account and should take all necessary precautions to safeguard your account credentials.
+
+### 8. Changes to Google Account Usage
+
+We may modify the use of Google Accounts in the App at our discretion. Any changes to how we use Google Accounts will be communicated to users through the App or by other appropriate means.
