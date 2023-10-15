@@ -129,7 +129,7 @@ We may update and change these Terms from time to time. It is your responsibilit
 
 ### 6. Contact Us
 
-If you have any questions or concerns regarding these Terms, please feel free to contact us at [Your Contact Information].
+If you have any questions or concerns regarding these Terms, please feel free to contact us at hugmeter@patrisiu.com.
 
 ### 7. Use of Google Accounts
 
