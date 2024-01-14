@@ -31,8 +31,8 @@ const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289
 "version.json": "0d12d9e27b6574bb042d872047ff9789",
 "favicon.png": "3cfead08706941cef16b511bdf8cfe62",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-"index.html": "e2cc8f01bcf4ed1e09a0390924de806d",
-"/": "e2cc8f01bcf4ed1e09a0390924de806d"};
+"index.html": "3e160cddd54985d7b05fd2f01812cab8",
+"/": "3e160cddd54985d7b05fd2f01812cab8"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
