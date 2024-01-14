@@ -17,7 +17,7 @@ const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289
 "assets/icons/icon.png": "c6351188d8fcd99eeacaec27eda6ab0b",
 "assets/icons/HugMeter-enhanced.xcf": "4994e17a931db9acefebd3b5883fab78",
 "assets/AssetManifest.bin": "147b00f75ef0804d0a0f2d95a4f80db5",
-"main.dart.js": "773c235352b58297a5462c3a511ca325",
+"main.dart.js": "34e15fe72a2d105794cb83f2072c4fe6",
 "canvaskit/skwasm.wasm": "1a074e8452fe5e0d02b112e22cdcf455",
 "canvaskit/skwasm.js": "95f16c6690f955a45b2317496983dbe9",
 "canvaskit/canvaskit.js": "bbf39143dfd758d8d847453b120c8ebb",
@@ -31,8 +31,8 @@ const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289
 "version.json": "0d12d9e27b6574bb042d872047ff9789",
 "favicon.png": "3cfead08706941cef16b511bdf8cfe62",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-"index.html": "3e160cddd54985d7b05fd2f01812cab8",
-"/": "3e160cddd54985d7b05fd2f01812cab8"};
+"index.html": "c49edb833cb941d8bdebddb6f3767598",
+"/": "c49edb833cb941d8bdebddb6f3767598"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
