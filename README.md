@@ -66,7 +66,7 @@ your location with and stay connected with loved ones in various ways.
 Thanks to the collaboration of the Hug Testers, new features are under development, but the main purpose of the app is
 to help people share love through hugs and let them know we care :)
 
-[![Promo Video](https://patrisiu.github.io/hugmeter/icons/HugMeter-192.png)](https://drive.google.com/file/d/1LNeaW14QaNAP6QoGOluL1UhYnBACPiLo/view?usp=sharing)
+[![Watch the video](https://img.youtube.com/vi/BGDBgZtTW-0/0.jpg)](https://www.youtube.com/watch?v=BGDBgZtTW-0)
 
 ## Privacy Policy
 
