@@ -185,34 +185,24 @@ precautions to safeguard your account credentials.
 We may modify the use of Google Accounts in the App at our discretion. Any changes to how we use Google Accounts will be
 communicated to users through the App or by other appropriate means.
 
-## Requesting Account Deletion by Email
+## In-App Account Deletion Feature
 
-If you wish to have your account and associated data deleted, you can initiate the process by sending a deletion request
-via email. Please follow these steps:
+Our app makes it easy for you to delete your account and associated data directly within the app. This ensures immediate action is taken without the need for additional verification steps since you're already logged in. Here’s how you can do it:
 
-1. **Compose an Email**: Create a new email from the email address associated with your account. The subject of the
-   email should be "Account Deletion Request."
+### Steps to Delete Your Account
 
-2. **Include Required Information**: In the body of the email, provide the following information:
-    - The email address linked to your account.
-    - Any additional details or identifiers that can help us locate your account.
+1. **Navigate to Account Settings**: Open the app and head over to your account settings.
 
-3. **Request Confirmation**: Request a confirmation of your account deletion, which will be sent to your email address.
-   This is to ensure that the request was made by the legitimate account holder.
+2. **Select 'Delete Account' Option**: Look for and select the "Delete Account" option.
 
-4. **Send the Email**: Once you've included all the necessary information, send the email to patrisiu@gmail.com.
+3. **Confirm Your Decision**: You will be asked to confirm your choice to delete your account. Please note that this action is irreversible, so make sure you are certain about your decision.
 
-5. **Verification**: We will review your request and may contact you for additional verification to confirm your
-   identity.
+4. **Instant Account Deletion**: Upon confirmation, your account along with all associated data will be immediately deleted. You will receive a notification confirming the deletion.
 
-6. **Processing Time**: Please allow 7-15 business days for your account deletion request to be processed. You will
-   receive a confirmation email once the process is complete.
+### Important Notes
 
-7. **Data Retention**: Be aware that some data may be retained as specified in our data retention policy. This may
-   include anonymized or archived information.
+- **Data Retention**: According to our data retention policy, some data may be retained in an anonymized or archived form to comply with legal or regulatory requirements.
 
-8. **Contact Us**: If you have any questions or encounter issues during the process, you can reach out to us at
-   hugmeter@patrisiu.com.
+- **Support**: If you encounter any issues during the deletion process or have any questions, our in-app support team is here to assist you.
 
-By following these steps and sending an account deletion request via email, you can take control of your account's data
-and privacy. We are committed to ensuring a smooth and secure account deletion process.
+By providing this feature, we aim to give you full control over your personal data and privacy, offering a straightforward and immediate way to manage your information within the app.
