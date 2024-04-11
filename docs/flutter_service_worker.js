@@ -11,14 +11,14 @@ const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289
 "assets/packages/flutter_map/lib/assets/flutter_map_logo.png": "208d63cc917af9713fc9572bd5c09362",
 "assets/fonts/MaterialIcons-Regular.otf": "e56afacfd2adb486bc3fd67006d3f06d",
 "assets/AssetManifest.bin.json": "42d02e4f3f24876a35dbb41b2e1489a9",
-"assets/NOTICES": "8fa8593f7403ba40b39e2b880ab67ec9",
+"assets/NOTICES": "bee02cec141a720c4d2e71d798c5b31b",
 "assets/icons/HugMeter.png": "9e03b39e90cbf7506008eefa7a504427",
 "assets/icons/HugMeter-enhanced-2.xcf": "4704874fc80fafb98847954d07ebd8d2",
 "assets/icons/HugMeter-enhanced.png": "890e74b7a01b9075576465633dae8670",
 "assets/icons/icon.png": "c6351188d8fcd99eeacaec27eda6ab0b",
 "assets/icons/HugMeter-enhanced.xcf": "4994e17a931db9acefebd3b5883fab78",
 "assets/AssetManifest.bin": "147b00f75ef0804d0a0f2d95a4f80db5",
-"main.dart.js": "554bd955a23616188d17c60f3d6122ea",
+"main.dart.js": "15495ab1cf469c6f9e69d09ccf9291e9",
 "canvaskit/skwasm.wasm": "e42815763c5d05bba43f9d0337fa7d84",
 "canvaskit/skwasm.js": "445e9e400085faead4493be2224d95aa",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
@@ -32,11 +32,11 @@ const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289
 "manifest.json": "7e5a28255187b3245e0df45ad3c368ce",
 "icons/HugMeter-192.png": "0c71dbda12ae44a1b0388c6abd71a777",
 "icons/HugMeter-512.png": "9e03b39e90cbf7506008eefa7a504427",
-"version.json": "8928115da1b9c7e2221773df1c6c5b19",
+"version.json": "6e4b1046b64be4b08e14b7902b195c89",
 "favicon.png": "3cfead08706941cef16b511bdf8cfe62",
 "flutter.js": "c71a09214cb6f5f8996a531350400a9a",
-"index.html": "e82651356ac10753e570775dd6853b9a",
-"/": "e82651356ac10753e570775dd6853b9a"};
+"index.html": "13ae080d55b4987a6bc19677000d6f05",
+"/": "13ae080d55b4987a6bc19677000d6f05"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
