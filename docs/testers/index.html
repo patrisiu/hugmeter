@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You Page</title>
+    <title>HugTesters</title>
+    <!-- Link to Google Fonts for Ubuntu font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,6 +14,7 @@
             padding: 20px;
         }
         .thanks-message {
+            font-family: 'Ubuntu', sans-serif;
             font-size: 24px;
             margin-bottom: 20px;
             z-index: 10;
@@ -33,6 +36,17 @@
         .fade-in {
             opacity: 1;
         }
+        .filename {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .filename a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+        .filename a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +56,7 @@
 <div id="image-container">
     <img id="current-image" class="fade fade-in" src="" alt="Rotating Image">
 </div>
+<div id="filename" class="filename"></div>
 
 <script>
     const images = [
@@ -65,6 +80,7 @@
     ];
 
     const imageElement = document.getElementById('current-image');
+    const filenameElement = document.getElementById('filename');
     let currentIndex = 0;
 
     function getNextImageIndex() {
@@ -85,13 +101,17 @@
             // Change image source
             imageElement.src = nextImageSrc;
 
+            // Update filename display with a link
+            filenameElement.innerHTML = `<a href="${nextImageSrc}" target="_blank">${nextImageSrc}</a>`;
+
             // Fade in new image
             imageElement.classList.add('fade-in');
         }, 1000); // Matches the transition time in the CSS
     }
 
-    // Initialize the first image
+    // Initialize the first image and filename
     imageElement.src = images[currentIndex];
+    filenameElement.innerHTML = `<a href="${images[currentIndex]}" target="_blank">${images[currentIndex]}</a>`;
 
     // Change image every 5 seconds
     setInterval(changeImage, 5000);
