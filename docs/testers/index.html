@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .thanks-message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #image-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+        }
+        .fade {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        .fade-in {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="thanks-message">
+    Thanks to Alice, Bob, and Charlie for their contributions!
+</div>
+<div id="image-container">
+    <img id="current-image" class="fade fade-in" src="" alt="Rotating Image">
+</div>
+
+<script>
+    const images = [
+        'IMG_20240416_140800.jpg',
+        'IMG_20240416_182815.jpg',
+        'IMG_20240416_214800.jpg',
+        'IMG_20240418_115748.jpg',
+        'IMG_20240418_153128.jpg',
+        'IMG_20240424_140641.jpg',
+        'IMG_20240508_184614.jpg',
+        'IMG_20240508_190831.jpg',
+        'IMG_20240509_100143.jpg',
+        'IMG_20240509_125423.jpg',
+        'IMG_20240509_140607.jpg',
+        'IMG_20240514_113201.jpg',
+        'IMG_20240514_113642.jpg',
+        'IMG_20240514_113753.jpg',
+        'IMG_20240514_113827.jpg',
+        'IMG_20240514_113851.jpg',
+        'IMG_20240514_113944.jpg'
+    ];
+
+    const imageElement = document.getElementById('current-image');
+    let currentIndex = 0;
+
+    function getNextImageIndex() {
+        let nextIndex;
+        do {
+            nextIndex = Math.floor(Math.random() * images.length);
+        } while (nextIndex === currentIndex);
+        return nextIndex;
+    }
+
+    function changeImage() {
+        currentIndex = getNextImageIndex();
+        const nextImageSrc = images[currentIndex];
+
+        // Fade out current image
+        imageElement.classList.remove('fade-in');
+        setTimeout(() => {
+            // Change image source
+            imageElement.src = nextImageSrc;
+
+            // Fade in new image
+            imageElement.classList.add('fade-in');
+        }, 1000); // Matches the transition time in the CSS
+    }
+
+    // Initialize the first image
+    imageElement.src = images[currentIndex];
+
+    // Change image every 5 seconds
+    setInterval(changeImage, 5000);
+</script>
+</body>
+</html>
