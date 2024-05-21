@@ -15,6 +15,7 @@
             background-color: #f0f0f0;
             padding: 20px;
         }
+
         .thanks-message {
             font-family: 'Ubuntu', sans-serif;
             font-size: 24px;
@@ -22,6 +23,7 @@
             z-index: 10;
             position: relative;
         }
+
         #image-container {
             position: relative;
             display: inline-block;
@@ -29,46 +31,57 @@
             max-height: 80vh;
             overflow: hidden;
         }
+
         .fade {
             max-width: 100%;
             max-height: 80vh;
             opacity: 0;
             transition: opacity 1s;
         }
+
         .fade-in {
             opacity: 1;
         }
+
         .filename {
             margin-top: 10px;
             font-size: 18px;
         }
+
         .filename a {
             color: #0000EE;
             text-decoration: none;
         }
+
         .filename a:hover {
             text-decoration: underline;
         }
+
         .thumbnail-carousel {
             margin-top: 20px;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
         }
+
         .thumbnail {
             margin: 5px;
             cursor: pointer;
             transition: transform 0.3s;
         }
+
         .thumbnail img {
-            width: 100px;
-            height: auto;
+            width: 100px; /* Fixed width */
+            height: 100px; /* Fixed height */
+            object-fit: cover; /* Ensures the image covers the area */
             border: 2px solid transparent;
             transition: border-color 0.3s;
         }
+
         .thumbnail img:hover {
             border-color: #0000EE;
         }
+
         .thumbnail.active img {
             border-color: #0000EE;
         }
@@ -92,19 +105,20 @@
         'IMG_20240416_214800.jpg',
         'IMG_20240418_115748.jpg',
         'IMG_20240418_153128.jpg',
+        'IMG_20240421_180533.jpg',
+        'IMG_20240421_210713.jpg',
+        'IMG_20240421_210730.jpg',
         'IMG_20240424_140641.jpg',
+        'IMG_20240506_181221.jpg',
         'IMG_20240508_184614.jpg',
         'IMG_20240508_190831.jpg',
         'IMG_20240509_100143.jpg',
         'IMG_20240509_125423.jpg',
         'IMG_20240509_140607.jpg',
         'IMG_20240509_WA0015.jpg',
+        'IMG_20240509_WA0019.jpg',
+        'IMG_20240510_170851.jpg',
         'IMG_20240511_WA0004.jpg',
-        'IMG_20240514_113201.jpg',
-        'IMG_20240514_113642.jpg',
-        'IMG_20240514_113753.jpg',
-        'IMG_20240514_113827.jpg',
-        'IMG_20240514_113851.jpg',
     ];
 
     const imageElement = document.getElementById('current-image');
