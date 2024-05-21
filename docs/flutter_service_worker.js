@@ -4,21 +4,22 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/AssetManifest.json": "c317a8d28b820b08faa2d8bfef4d59bf",
+"assets/AssetManifest.json": "18a3be335d255171ac8624324c5852be",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/assets/HugMeter.png": "9e03b39e90cbf7506008eefa7a504427",
 "assets/assets/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
 "assets/packages/flutter_map/lib/assets/flutter_map_logo.png": "208d63cc917af9713fc9572bd5c09362",
-"assets/fonts/MaterialIcons-Regular.otf": "e1e086134b397d1602d0a12bc3d066cc",
-"assets/AssetManifest.bin.json": "42d02e4f3f24876a35dbb41b2e1489a9",
-"assets/NOTICES": "bee02cec141a720c4d2e71d798c5b31b",
+"assets/fonts/MaterialIcons-Regular.otf": "b4be1ae908124c5e0467a36afe598b14",
+"assets/AssetManifest.bin.json": "59114b0afcbdf2cc79c92004c3281266",
+"assets/NOTICES": "89c8c11a1aad816e2d1840a6146a56db",
 "assets/icons/HugMeter.png": "9e03b39e90cbf7506008eefa7a504427",
 "assets/icons/HugMeter-enhanced-2.xcf": "4704874fc80fafb98847954d07ebd8d2",
+"assets/icons/HugIcon-512-wb.png": "3d2ca1ccbc1fdbbb4745599ffaa36566",
 "assets/icons/HugMeter-enhanced.png": "890e74b7a01b9075576465633dae8670",
 "assets/icons/icon.png": "c6351188d8fcd99eeacaec27eda6ab0b",
 "assets/icons/HugMeter-enhanced.xcf": "4994e17a931db9acefebd3b5883fab78",
-"assets/AssetManifest.bin": "147b00f75ef0804d0a0f2d95a4f80db5",
-"main.dart.js": "1d212d399172900cc6cc70e2998f9db3",
+"assets/AssetManifest.bin": "1a72fae5c9f95e2e1d765b402e68eb0c",
+"main.dart.js": "c3f9a3756bc7be6ee7621a8cfabf2ec3",
 "canvaskit/skwasm.wasm": "e42815763c5d05bba43f9d0337fa7d84",
 "canvaskit/skwasm.js": "445e9e400085faead4493be2224d95aa",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
@@ -32,11 +33,11 @@ const RESOURCES = {"assets/FontManifest.json": "7b2a36307916a9721811788013e65289
 "manifest.json": "7e5a28255187b3245e0df45ad3c368ce",
 "icons/HugMeter-192.png": "0c71dbda12ae44a1b0388c6abd71a777",
 "icons/HugMeter-512.png": "9e03b39e90cbf7506008eefa7a504427",
-"version.json": "cd978d0aec6f18c23d2eaaa9bc7df542",
+"version.json": "73457a32094596ff36fcac58d68e75e4",
 "favicon.png": "3cfead08706941cef16b511bdf8cfe62",
 "flutter.js": "c71a09214cb6f5f8996a531350400a9a",
-"index.html": "6f13ff2e24144f036770ed22e9cf6bd3",
-"/": "6f13ff2e24144f036770ed22e9cf6bd3"};
+"index.html": "aba862049260943932309a02c0655a49",
+"/": "aba862049260943932309a02c0655a49"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",

@@ -49,6 +49,29 @@
         .filename a:hover {
             text-decoration: underline;
         }
+        .thumbnail-carousel {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .thumbnail {
+            margin: 5px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .thumbnail img {
+            width: 100px;
+            height: auto;
+            border: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+        .thumbnail img:hover {
+            border-color: #0000EE;
+        }
+        .thumbnail.active img {
+            border-color: #0000EE;
+        }
     </style>
 </head>
 <body>
@@ -59,9 +82,11 @@
     <img id="current-image" class="fade fade-in" src="" alt="Rotating Image">
 </div>
 <div id="filename" class="filename"></div>
+<div id="thumbnail-carousel" class="thumbnail-carousel"></div>
 
 <script>
     const images = [
+        'IMG_20240416_124300.jpg',
         'IMG_20240416_140800.jpg',
         'IMG_20240416_182815.jpg',
         'IMG_20240416_214800.jpg',
@@ -80,12 +105,13 @@
         'IMG_20240514_113753.jpg',
         'IMG_20240514_113827.jpg',
         'IMG_20240514_113851.jpg',
-        'IMG_20240514_113944.jpg'
     ];
 
     const imageElement = document.getElementById('current-image');
     const filenameElement = document.getElementById('filename');
+    const thumbnailCarousel = document.getElementById('thumbnail-carousel');
     let currentIndex = 0;
+    let intervalId;
 
     function getNextImageIndex() {
         let nextIndex;
@@ -95,8 +121,8 @@
         return nextIndex;
     }
 
-    function changeImage() {
-        currentIndex = getNextImageIndex();
+    function changeImage(index) {
+        currentIndex = index !== undefined ? index : getNextImageIndex();
         const nextImageSrc = images[currentIndex];
 
         // Fade out current image
@@ -110,15 +136,55 @@
 
             // Fade in new image
             imageElement.classList.add('fade-in');
+
+            // Update active thumbnail
+            updateActiveThumbnail();
         }, 1000); // Matches the transition time in the CSS
+    }
+
+    function updateActiveThumbnail() {
+        const thumbnails = thumbnailCarousel.getElementsByClassName('thumbnail');
+        for (let i = 0; i < thumbnails.length; i++) {
+            if (i === currentIndex) {
+                thumbnails[i].classList.add('active');
+            } else {
+                thumbnails[i].classList.remove('active');
+            }
+        }
+    }
+
+    function stopRotation() {
+        if (intervalId) {
+            clearInterval(intervalId);
+            intervalId = null;
+        }
     }
 
     // Initialize the first image and filename
     imageElement.src = images[currentIndex];
     filenameElement.innerHTML = `<a href="${images[currentIndex]}" target="_blank">${images[currentIndex]}</a>`;
 
-    // Change image every 5 seconds
-    setInterval(changeImage, 5000);
+    // Start automatic image rotation
+    intervalId = setInterval(changeImage, 5000);
+
+    // Create thumbnail carousel
+    images.forEach((src, index) => {
+        const thumbnailDiv = document.createElement('div');
+        thumbnailDiv.className = 'thumbnail';
+        thumbnailDiv.addEventListener('click', () => {
+            stopRotation();
+            changeImage(index);
+        });
+
+        const thumbnailImg = document.createElement('img');
+        thumbnailImg.src = src;
+
+        thumbnailDiv.appendChild(thumbnailImg);
+        thumbnailCarousel.appendChild(thumbnailDiv);
+    });
+
+    // Set the initial active thumbnail
+    updateActiveThumbnail();
 </script>
 </body>
 </html>
