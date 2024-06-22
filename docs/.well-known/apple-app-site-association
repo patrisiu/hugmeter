@@ -1,18 +1,25 @@
 {
   "applinks": {
-    "apps": [
-    ],
+    "apps": [],
     "details": [
       {
         "appIDs": [
           "F2L953V3KJ.com.patrisiu.hugmeter"
         ],
+        "paths": [
+          "*"
+        ],
         "components": [
           {
-            "/": "*"
+            "/": "/*"
           }
         ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "F2L953V3KJ.com.patrisiu.hugmeter"
     ]
   }
 }
