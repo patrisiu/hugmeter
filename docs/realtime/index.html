@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Realtime Virtual Hugs</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Ubuntu', sans-serif; /* Apply Ubuntu font to the entire page */
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            z-index: 1000;
+            font-family: 'Ubuntu', sans-serif; /* Apply Ubuntu font to the header */
+        }
+
+        #map {
+            height: calc(100vh - 60px); /* Adjust height to make room for the title */
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 1000; /* Ensure the legend is above other elements */
+            font-family: 'Ubuntu', sans-serif; /* Apply Ubuntu font to the legend */
+        }
+    </style>
+</head>
+<body>
+<div class="header">Realtime Virtual Hugs</div>
+<div id="map"></div>
+<div class="legend" id="legend">
+    <strong>Hugs Sent:</strong> <span id="sentCount">0</span><br>
+    <strong>Hugs Received:</strong> <span id="receivedCount">0</span><br>
+    <strong>Last Hug:</strong> <span id="lastHug">N/A</span>
+</div>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    // Initialize Firebase
+    var firebaseConfig = {
+        apiKey: "AIzaSyBeJhhyes4B52kiauHTCavdwzS2UiTMqLM",
+        authDomain: "hugmeter.firebaseapp.com",
+        databaseURL: "https://hugmeter-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "hugmeter",
+        storageBucket: "hugmeter.appspot.com",
+        messagingSenderId: "145109323797",
+        appId: "1:145109323797:web:06f09799100486024c3e1c"
+    };
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+
+    // Initialize the map
+    var map = L.map('map').setView([0, 0], 2); // Centered at lat 0, lng 0 with zoom level 2
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Color code
+    const color = '#7986CB'; // Hex color code
+
+    // Custom circle markers
+    function createCircleMarker(latlng, color) {
+        return L.circleMarker(latlng, {
+            radius: 8,
+            fillColor: color,
+            color: color, // Border color of the marker
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 1
+        });
+    }
+
+    // Function to draw a line between markers
+    function drawLine(fromLatLng, toLatLng) {
+        return L.polyline([fromLatLng, toLatLng], {
+            color: color, // Color of the line
+            weight: 2,
+            opacity: 0.8
+        }).addTo(map);
+    }
+
+    // Function to format timestamp to readable date and time
+    function formatTimestamp(timestamp) {
+        var date = new Date(timestamp);
+        return date.toLocaleString(); // Format to local date and time string
+    }
+
+    // Counters for hugs sent and received
+    let sentCount = 0;
+    let receivedCount = 0;
+
+    // Update the legend with counts and last hug timestamp
+    function updateLegend(lastHugTimestamp) {
+        document.getElementById('sentCount').textContent = sentCount;
+        document.getElementById('receivedCount').textContent = receivedCount;
+        document.getElementById('lastHug').textContent = lastHugTimestamp ? formatTimestamp(lastHugTimestamp) : 'N/A';
+    }
+
+    // Listen for changes in the Firebase Realtime Database
+    database.ref('!web-socket-virtual-hugs/events').on('child_added', function(snapshot) {
+        var event = snapshot.val();
+        var fromMarker, toMarker, line;
+
+        var lastHugTimestamp = parseInt(snapshot.key); // Use the timestamp from the event key
+
+        if (event.from && event.to) {
+            fromMarker = createCircleMarker([event.from.latitude, event.from.longitude], color).addTo(map);
+            toMarker = createCircleMarker([event.to.latitude, event.to.longitude], color).addTo(map);
+
+            line = drawLine(
+                L.latLng(event.from.latitude, event.from.longitude),
+                L.latLng(event.to.latitude, event.to.longitude)
+            );
+
+            receivedCount++;
+            updateLegend(lastHugTimestamp);
+        } else if (event.from) {
+            fromMarker = createCircleMarker([event.from.latitude, event.from.longitude], color).addTo(map);
+            sentCount++;
+            updateLegend(lastHugTimestamp);
+        } else if (event.to) {
+            toMarker = createCircleMarker([event.to.latitude, event.to.longitude], color).addTo(map);
+            receivedCount++;
+            updateLegend(lastHugTimestamp);
+        }
+
+        // Remove markers and lines after a few seconds
+        setTimeout(function() {
+            if (fromMarker) map.removeLayer(fromMarker);
+            if (toMarker) map.removeLayer(toMarker);
+            if (line) map.removeLayer(line);
+        }, 5000); // 5 seconds
+    });
+
+    // Initialize the legend
+    updateLegend();
+</script>
+</body>
+</html>
