@@ -69,11 +69,28 @@
     firebase.initializeApp(firebaseConfig);
     var database = firebase.database();
 
+    // Retrieve map position and zoom level from Local Storage
+    var savedLat = localStorage.getItem('mapLat');
+    var savedLng = localStorage.getItem('mapLng');
+    var savedZoom = localStorage.getItem('mapZoom');
+
+    var mapLat = savedLat ? parseFloat(savedLat) : 0;
+    var mapLng = savedLng ? parseFloat(savedLng) : 0;
+    var mapZoom = savedZoom ? parseInt(savedZoom) : 2;
+
     // Initialize the map
-    var map = L.map('map').setView([0, 0], 2); // Centered at lat 0, lng 0 with zoom level 2
+    var map = L.map('map').setView([mapLat, mapLng], mapZoom);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+
+    // Save map position and zoom level to Local Storage
+    map.on('moveend', function() {
+        var center = map.getCenter();
+        localStorage.setItem('mapLat', center.lat);
+        localStorage.setItem('mapLng', center.lng);
+        localStorage.setItem('mapZoom', map.getZoom());
+    });
 
     // Color code
     const color = '#7986CB'; // Hex color code
