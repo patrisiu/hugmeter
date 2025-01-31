@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safe Platform - CSAE Compliance</title>
+  <meta name="description" content="A CSAE-compliant website ensuring online safety for children.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0073e6;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .warning {
+      color: red;
+      font-weight: bold;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .report-section, .terms-section {
+      margin-top: 20px;
+      padding: 15px;
+      background: #f2f2f2;
+      border-left: 5px solid #ff0000;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      color: white;
+      background: #0073e6;
+      text-decoration: none;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #005bb5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Safe Platform - CSAE Compliance
+</header>
+
+<div class="container">
+  <!-- Age Verification Warning -->
+  <div class="warning">
+    WARNING: If you are under 18, parental supervision is advised.
+    Our platform does not allow any form of child exploitation content.
+  </div>
+
+  <!-- CSA Reporting Section -->
+  <div class="report-section">
+    <h2>Report Inappropriate Content</h2>
+    <p>If you come across content that violates child safety standards, please report it immediately.</p>
+    <form action="https://example.com/report" method="POST">
+      <label for="report-reason">Reason for reporting:</label><br>
+      <textarea id="report-reason" name="report_reason" rows="4" cols="50" required></textarea><br><br>
+      <input type="submit" value="Submit Report" class="btn">
+    </form>
+  </div>
+
+  <!-- CSAE Compliance Terms -->
+  <div class="terms-section">
+    <h2>Community Guidelines & CSAE Compliance</h2>
+    <p>We strictly prohibit any form of child sexual abuse or exploitation content. Violation of these guidelines will result in an immediate ban and legal action if necessary.</p>
+    <a href="/terms-of-service.html" class="btn">Read Full Terms</a>
+  </div>
+
+  <!-- Privacy Policy Link -->
+  <p><a href="/privacy-policy.html">Privacy Policy</a> | <a href="/contact.html">Contact Us</a></p>
+</div>
+
+</body>
+</html>
