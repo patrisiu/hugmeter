@@ -4,11 +4,11 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"flutter.js": "76f08d47ff9f5715220992f993002504",
-"flutter_bootstrap.js": "e8513f0e4e2d1a75f9a62a23387e3aa7",
+"flutter_bootstrap.js": "5da6894d25a71edb65df5f6563547185",
 "manifest.json": "7e5a28255187b3245e0df45ad3c368ce",
 "version.json": "ee49ba5e6c6899969f971fd35dcf54a2",
 "favicon.png": "3cfead08706941cef16b511bdf8cfe62",
-"main.dart.js": "3d8020744ff233c88ce235c3d5e6f353",
+"main.dart.js": "bb31cb0e407c66b8827da16a286e2977",
 "canvaskit/chromium/canvaskit.js.symbols": "5a23598a2a8efd18ec3b60de5d28af8f",
 "canvaskit/chromium/canvaskit.wasm": "64a386c87532ae52ae041d18a32a3635",
 "canvaskit/chromium/canvaskit.js": "ba4a8ae1a65ff3ad81c6818fd47e348b",
@@ -33,8 +33,8 @@ const RESOURCES = {"flutter.js": "76f08d47ff9f5715220992f993002504",
 "assets/AssetManifest.bin.json": "ac46cabdb09eafba4457f9c49f602ae5",
 "assets/AssetManifest.json": "d31fcfb0405d09875306d3589ea8af65",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
-"index.html": "782acccde77324c5402cb426ca355db9",
-"/": "782acccde77324c5402cb426ca355db9",
+"index.html": "77e547ef4cdd39ae1b5f0fcbcdde8fa0",
+"/": "77e547ef4cdd39ae1b5f0fcbcdde8fa0",
 "icons/HugMeter-192.png": "0c71dbda12ae44a1b0388c6abd71a777",
 "icons/HugMeter-512.png": "9e03b39e90cbf7506008eefa7a504427"};
 // The application shell files that are downloaded before a service worker can
