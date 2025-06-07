@@ -56,10 +56,6 @@ The application stores the last location notified for those Huggers with the fea
 not entirely reliable. In any case, this information is only used between users who have enabled this feature, and it is
 not shared with third parties. For more details, please refer to the [Privacy Policy](#privacy-policy) section.
 
-Furthermore, the sharing feature is unidirectional, meaning that individuals can choose whom to share their location
-with without expecting a reciprocal sharing response. Users can silently add and remove Huggers without warning to
-preserve their privacy.
-
 In addition, HugMeter allows you to organize your Huggers into different groups, giving you control over whom you share
 your location with and stay connected with loved ones in various ways.
 
