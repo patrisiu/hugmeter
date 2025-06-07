@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Safe Platform - CSAE Compliance</title>
     <meta name="description" content="A CSAE-compliant website ensuring online safety for children.">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS
+        (function() {
+            emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+        })();
+
+        function sendEmail(event) {
+            event.preventDefault(); // Prevent form submission
+
+            const reportReason = document.getElementById("report-reason").value;
+
+            emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+                report_reason: reportReason
+            }).then(function(response) {
+                alert("Report submitted successfully!");
+            }, function(error) {
+                alert("Failed to send the report. Please try again.");
+            });
+        }
+    </script>
     <style>
         body {
-            font-family: 'Ubuntu', sans-serif;
+            font-family: 'Ubuntu', sans-serif;Deprecated symbol used, consult docs for better alternative
             line-height: 1.6;
             color: #333;
             max-width: 800px;
@@ -80,7 +101,7 @@
     <div class="report-section">
         <h2>Report Inappropriate Content</h2>
         <p>If you come across content that violates child safety standards, please report it immediately.</p>
-        <form action="https://example.com/report" method="POST">
+        <form onsubmit="sendEmail(event)">
             <label for="report-reason">Reason for reporting:</label><br>
             <textarea id="report-reason" name="report_reason" rows="4" cols="50" required></textarea><br><br>
             <input type="submit" value="Submit Report" class="btn">
