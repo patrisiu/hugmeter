@@ -56,11 +56,9 @@
 </head>
 <body>
 <div class="container">
-    <h1>HugMeter Project Overview</h1>
+    <h1>HugMeter</h1>
 
-    <p>The HugMeter project is a Flutter app designed to help people stay connected with loved ones by expressing
-        affection through hugs. It allows users to share their location with trusted individuals, enabling them to see
-        when they are nearby and ready for a hug.</p>
+    <p>Measure distance to next Hug, notify when Hug is close, and share Virtual Hugs!</p>
 
     <h2>About</h2>
     <p>HugMeter started as a <a href="https://flutter.dev/" target="_blank">Flutter</a> project for learning purposes
@@ -68,8 +66,7 @@
     </p>
 
     <p>Over time, the app has evolved to send alerts when a Hugger is sharing their location and is in close proximity.
-        Additionally, <a href="#purple_heart-send-virtual-hugs">Virtual Hugs</a> can be sent across the world,
-        regardless of the distance.</p>
+        Additionally, Virtual Hugs can be sent across the world, regardless of the distance.</p>
 
     <p>This is not intended to be a real-time location tracking tool. People can choose to share their approximate
         location periodically —every hour, once per day, or only when using the app— or they can remain completely
@@ -83,7 +80,8 @@
     <p>In addition, HugMeter allows you to organize your Huggers into different groups, giving you control over whom you
         share your location with and stay connected with loved ones in various ways.</p>
 
-    <p>Thanks to the collaboration of the <a href="testers">Hug Testers</a>, new features are under development, but the
+    <p>Thanks to the collaboration of the <a href="../testers">Hug Testers</a>, new features are under development, but
+        the
         main purpose of the app is to help people share love through hugs and let them know we care :)</p>
 
     <p>The app also includes features to ensure user privacy and data security. It does not collect personal information
@@ -97,27 +95,43 @@
         </a>
     </div>
 
-    <h2>Key Features</h2>
-    <ul class="features">
-        <li><strong>Location Sharing:</strong> Users can choose who to share their location with, adding or removing
-            people from their list.
-        </li>
-        <li><strong>Virtual Hugs:</strong> Users can send virtual hugs to others, regardless of distance.</li>
-        <li><strong>Travel Hug:</strong> This feature updates the user's location based on their distance to a
-            destination, providing more frequent updates as they get closer.
-        </li>
-        <li><strong>Group Management:</strong> Users can organize their contacts into groups for different contexts,
-            such as friends, family, or events.
-        </li>
-        <li><strong>Privacy:</strong> The app allows users to control how often their location is shared (every 15
-            minutes, hourly, daily, or only when the app is open) or to remain completely hidden. Location sharing is
-            unidirectional, and users can add or remove contacts silently.
-        </li>
-    </ul>
-    <p>For more details, you can visit the <a href="https://github.com/patrisiu/hugmeter" target="_blank">HugMeter
-        GitHub repository</a>.</p>
+    <h2>Features</h2>
+    <div class="features">
+        <ul>
+            <li><strong>Distance with the Hugs on the move!</strong> People decide who to share their location with
+                and can freely join or leave your list.
+            </li>
+            <li><strong>Share your location with other Huggers:</strong> Add or remove trusted people to share your
+                location and show them where you're ready to hug!
+            </li>
+            <li><strong>Spot all Hugs:</strong> Locate them on the map and navigate to your Hug with Google Maps.
+            </li>
+            <li><strong>Send Virtual Hugs:</strong> Let your Huggers know you want to hug them, no matter the
+                distance!
+            </li>
+            <li><strong>Travel Hug: Stay Updated on the Go:</strong> Are you on your way to meet a Hugger or
+                traveling to a distant destination? You can enable the Travel Hug feature to keep your location updated
+                based on the distance. The closer you get, the more frequent the updates until you reach your
+                destination!
+            </li>
+            <li><strong>Share your location periodically:</strong> At your discretion, you can share your location
+                with your trusted Huggers every 15 minutes, hourly, once a day, when the app is open, or remain
+                completely hidden!
+            </li>
+            <li><strong>Receive a notification when a Hug is approaching!</strong> Prepare for hugs based on distance
+                and the latest activity updates.
+            </li>
+            <li><strong>Manage groups of Huggers:</strong> Stay connected and in control by organizing your Huggers
+                into different groups. Whether you're enjoying a festival with friends, finding the perfect spot for
+                beach volleyball, or sharing your global travel adventures with family, you can manage several Huggers
+                Groups.
+            </li>
+        </ul>
+        <p>For more details, you can visit the <a href="https://github.com/patrisiu/hugmeter" target="_blank">HugMeter
+            GitHub repository</a>.</p>
+    </div>
 
-    <div class="privacy-policy">
+    <div class="privacy-policy" id="privacy-policy">
         <h2>Privacy Policy</h2>
         <p>At HugMeter, we take your privacy seriously. We are committed to ensuring that your personal information is
             protected and that you have a safe and secure experience while using our app.</p>
@@ -150,7 +164,7 @@
             feature, please feel free to contact us at <a href="mailto:hugmeter@patrisiu.com">hugmeter@patrisiu.com</a>.
         </p>
 
-        <h2>Terms of Service</h2>
+        <h2 id="terms-of-service">Terms of Service</h2>
         <p>These Terms of Service ("Terms") govern your use of HugMeter (the "App") provided by patrisiu.com ("we,"
             "us," or "our"). By accessing and using the App, you agree to comply with and be bound by these Terms. If
             you do not agree with any part of these Terms, please refrain from using the App.</p>
@@ -217,7 +231,7 @@
         <p>If you have any questions or concerns regarding these Terms, please feel free to contact us at <a
                 href="mailto:hugmeter@patrisiu.com">hugmeter@patrisiu.com</a>.</p>
 
-        <h3>7. Use of Google Accounts</h3>
+        <h3 id="google-accounts">7. Use of Google Accounts</h3>
         <ul>
             <li><strong>Google Authentication:</strong> To enhance the security and identity verification of our users,
                 we offer the option to sign in using a Google Account. By choosing this method, you agree to the Google
