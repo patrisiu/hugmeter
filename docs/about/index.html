@@ -14,33 +14,41 @@
             padding: 0 20px;
             background-color: #f4f4f4;
         }
+
         h1, h2 {
             color: #2c3e50;
         }
+
         h1 {
             text-align: center;
             margin-bottom: 30px;
         }
+
         .container {
             background-color: #fff;
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+
         ul {
             list-style-type: disc;
             margin-left: 20px;
         }
+
         ul.features li {
             margin-bottom: 10px;
         }
+
         strong {
             color: #34495e;
         }
+
         a {
             color: #3498db;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
@@ -50,28 +58,210 @@
 <div class="container">
     <h1>HugMeter Project Overview</h1>
 
-    <p>HugMeter is a Flutter application designed to help users stay connected with their loved ones by facilitating expressions of affection through "hugs." It provides features for sharing location with trusted individuals, enabling users to be aware of their proximity to each other for potential meetups and to send virtual gestures of care.</p>
+    <p>The HugMeter project is a Flutter app designed to help people stay connected with loved ones by expressing
+        affection through hugs. It allows users to share their location with trusted individuals, enabling them to see
+        when they are nearby and ready for a hug.</p>
 
     <h2>Key Features:</h2>
     <ul class="features">
-        <li><strong>Location Sharing:</strong> Users have control over who they share their location with, allowing them to add or remove contacts from their sharing list.</li>
-        <li><strong>Virtual Hugs:</strong> The app supports sending "virtual hugs" to contacts, offering a way to express affection regardless of geographical distance.</li>
-        <li><strong>Travel Hug:</strong> This specific feature dynamically updates a user's location based on their distance to a chosen destination, providing more frequent updates as they get closer.</li>
-        <li><strong>Group Management:</strong> Users can organize their contacts into various groups (e.g., friends, family, events) to manage sharing contexts efficiently.</li>
-        <li><strong>Privacy Controls:</strong> HugMeter offers robust privacy settings, allowing users to define the frequency of location sharing (e.g., every 15 minutes, hourly, daily, or only when the app is active). Users also have the option to remain completely hidden from others on the map.</li>
+        <li><strong>Location Sharing:</strong> Users can choose who to share their location with, adding or removing
+            people from their list.
+        </li>
+        <li><strong>Virtual Hugs:</strong> Users can send virtual hugs to others, regardless of distance.</li>
+        <li><strong>Travel Hug:</strong> This feature updates the user's location based on their distance to a
+            destination, providing more frequent updates as they get closer.
+        </li>
+        <li><strong>Group Management:</strong> Users can organize their contacts into groups for different contexts,
+            such as friends, family, or events.
+        </li>
+        <li><strong>Privacy:</strong> The app allows users to control how often their location is shared (every 15
+            minutes, hourly, daily, or only when the app is open) or to remain completely hidden. Location sharing is
+            unidirectional, and users can add or remove contacts silently.
+        </li>
     </ul>
+    <p>For more details, you can visit the <a href="https://github.com/patrisiu/hugmeter" target="_blank">HugMeter
+        GitHub repository</a>.</p>
+
+    <h2>About</h2>
+    <p>HugMeter started as a <a href="https://flutter.dev/" target="_blank">Flutter</a> project for learning purposes
+        with the goal of staying connected with loved ones by expressing affection through hugs when people are nearby.
+    </p>
+
+    <p>Over time, the app has evolved to send alerts when a Hugger is sharing their location and is in close proximity.
+        Additionally, <a href="#purple_heart-send-virtual-hugs">Virtual Hugs</a> can be sent across the world,
+        regardless of the distance.</p>
+
+    <p>This is not intended to be a real-time location tracking tool. People can choose to share their approximate
+        location periodically —every hour, once per day, or only when using the app— or they can remain completely
+        hidden.</p>
+
+    <p>The application stores the last location notified for those Huggers with the feature enabled, so it may be
+        outdated and not entirely reliable. In any case, this information is only used between users who have enabled
+        this feature, and it is not shared with third parties. For more details, please refer to the <a
+                href="#privacy-policy">Privacy Policy</a> section.</p>
+
+    <p>In addition, HugMeter allows you to organize your Huggers into different groups, giving you control over whom you
+        share your location with and stay connected with loved ones in various ways.</p>
+
+    <p>Thanks to the collaboration of the Hug Testers, new features are under development, but the main purpose of the
+        app is to help people share love through hugs and let them know we care :)</p>
+    <p>The app also includes features to ensure user privacy and data security. It does not collect personal information
+        like names or email addresses. Location data is only stored for users who enable the location-sharing feature
+        and is only shared with explicitly permitted users. The app also offers an in-app account deletion feature for
+        users to manage their data.</p>
 
     <h2>Privacy & Data Security:</h2>
-    <ul>
-        <li>The app emphasizes user privacy, ensuring that location sharing is unidirectional.</li>
-        <li>Users can add or remove contacts for sharing silently, without notifying the other party.</li>
-        <li>HugMeter does not collect personal identifying information such as names or email addresses.</li>
-        <li>Location data is stored only for users who have explicitly enabled the location-sharing feature.</li>
-        <li>Data is shared exclusively with users who have been granted explicit permission by the owner.</li>
-        <li>An in-app account deletion feature is provided, empowering users to manage and remove their data at any time.</li>
-    </ul>
 
-    <p>For more details, you can visit the <a href="https://github.com/patrisiu/hugmeter" target="_blank">HugMeter GitHub repository</a>.</p>
+    <div class="privacy-policy">
+        <h2>Privacy Policy</h2>
+        <p>At HugMeter, we take your privacy seriously. We are committed to ensuring that your personal information is
+            protected and that you have a safe and secure experience while using our app.</p>
+
+        <h3>Information We Collect</h3>
+        <ul>
+            <li><strong>User-Provided Information:</strong> We do not collect or store any of your personal information,
+                such as your name, contact information, email address, or any other personal data.
+            </li>
+            <li><strong>Location Data:</strong> We do collect and store the last location data received, but this is
+                done under specific conditions. This location data is only stored for users who have enabled the
+                location-sharing feature in the app. Furthermore, this data is not shared with other users by default;
+                it is only shared with those users whom you have granted permission to access your location.
+            </li>
+        </ul>
+
+        <h3>Data Sharing</h3>
+        <p>We do not share user data, personal or otherwise, with third parties.</p>
+
+        <h3>Anonymous Usage Data</h3>
+        <p>In addition to location data, we may collect anonymous usage data to improve the functionality and
+            performance of our app. This data is entirely non-identifiable and is used for analytical purposes only.</p>
+
+        <h3>Data Security</h3>
+        <p>We take all necessary measures to ensure the security of your data. Rest assured that your privacy is of
+            utmost importance to us.</p>
+
+        <h3>Contact Us</h3>
+        <p>If you have any questions or concerns regarding your privacy, the use of your data, or the location-sharing
+            feature, please feel free to contact us at <a href="mailto:hugmeter@patrisiu.com">hugmeter@patrisiu.com</a>.
+        </p>
+
+        <h2>Terms of Service</h2>
+        <p>These Terms of Service ("Terms") govern your use of HugMeter (the "App") provided by patrisiu.com ("we,"
+            "us," or "our"). By accessing and using the App, you agree to comply with and be bound by these Terms. If
+            you do not agree with any part of these Terms, please refrain from using the App.</p>
+
+        <h3>1. App Usage</h3>
+        <ul>
+            <li><strong>Eligibility:</strong> To use the App, you must meet the following age requirement:
+                <ul>
+                    <li>If you’re under the age required to manage your own <a href="#google-accounts">Google
+                        Account</a>, you must have your parent or legal guardian’s permission to use a Google Account.
+                        Please have your parent or legal guardian read these terms with you.
+                    </li>
+                    <li>If you’re a parent or legal guardian, and you allow your child to use the services, then these
+                        terms apply to you, and you’re responsible for your child’s activity on the services.
+                    </li>
+                </ul>
+            </li>
+            <li><strong>Personal Information:</strong> You agree that any personal information you provide to the App is
+                accurate and complete. You understand and consent to the collection and use of your information as
+                described in our <a href="#privacy-policy">Privacy Policy</a>.
+            </li>
+            <li><strong>User Accounts:</strong> You may be required to create a user account to access certain features
+                of the App. You are responsible for maintaining the confidentiality of your account information, and you
+                agree to accept responsibility for all activities that occur under your account.
+            </li>
+        </ul>
+
+        <h3>2. Location Sharing Feature</h3>
+        <ul>
+            <li><strong>Location Data:</strong> If you choose to enable the location-sharing feature, the App will
+                collect and store your last location data received. This data is used solely for the purpose of sharing
+                your location with other users whom you have granted permission to access it.
+            </li>
+            <li><strong>User Permissions:</strong> You control who can access your location data. Only users to whom you
+                have granted permission can view your location. Your location data is not shared with other users by
+                default.
+            </li>
+            <li><strong>Accuracy:</strong> The location data shared is approximate and may not always be accurate. You
+                agree not to rely solely on this data for critical decisions.
+            </li>
+        </ul>
+
+        <h3>3. Content and Conduct</h3>
+        <ul>
+            <li><strong>User-Generated Content:</strong> You are solely responsible for any content you post, submit, or
+                transmit through the App. You agree not to post or share content that is illegal, harmful, or infringing
+                upon the rights of others.
+            </li>
+            <li><strong>Prohibited Conduct:</strong> You agree not to engage in any conduct that may disrupt or
+                compromise the security or functionality of the App.
+            </li>
+        </ul>
+
+        <h3>4. Termination</h3>
+        <p>We reserve the right to terminate or suspend your access to the App at our discretion, with or without
+            notice. If you breach any part of these Terms, your rights to use the App will terminate immediately.</p>
+
+        <h3>5. Changes to the Terms</h3>
+        <p>We may update and change these Terms from time to time. It is your responsibility to review these Terms
+            periodically to stay informed of any updates. Your continued use of the App after any changes to the Terms
+            constitutes your acceptance of those changes.</p>
+
+        <h3>6. Contact Us</h3>
+        <p>If you have any questions or concerns regarding these Terms, please feel free to contact us at <a
+                href="mailto:hugmeter@patrisiu.com">hugmeter@patrisiu.com</a>.</p>
+
+        <h3>7. Use of Google Accounts</h3>
+        <ul>
+            <li><strong>Google Authentication:</strong> To enhance the security and identity verification of our users,
+                we offer the option to sign in using a Google Account. By choosing this method, you agree to the Google
+                Terms of Service and Google Privacy Policy in addition to these Terms.
+            </li>
+            <li><strong>Identity Verification:</strong> We may use Google Accounts to verify the identity of users and
+                to provide a higher level of assurance regarding user authenticity. However, we do not have access to
+                your Google Account password or any sensitive information stored in your Google Account.
+            </li>
+            <li><strong>User Responsibility:</strong> You are responsible for the security of your Google Account and
+                should take all necessary precautions to safeguard your account credentials.
+            </li>
+        </ul>
+
+        <h3>8. Changes to Google Account Usage</h3>
+        <p>We may modify the use of Google Accounts in the App at our discretion. Any changes to how we use Google
+            Accounts will be communicated to users through the App or by other appropriate means.</p>
+
+        <h2>In-App Account Deletion Feature</h2>
+        <p>Our app makes it easy for you to delete your account and associated data directly within the app. This
+            ensures immediate action is taken without the need for additional verification steps since you're already
+            logged in. Here’s how you can do it:</p>
+
+        <h3>Steps to Delete Your Account</h3>
+        <ol>
+            <li><strong>Navigate to Account Settings:</strong> Open the app and head over to your account settings.</li>
+            <li><strong>Select 'Delete Account' Option:</strong> Look for and select the "Delete Account" option.</li>
+            <li><strong>Confirm Your Decision:</strong> You will be asked to confirm your choice to delete your account.
+                Please note that this action is irreversible, so make sure you are certain about your decision.
+            </li>
+            <li><strong>Instant Account Deletion:</strong> Upon confirmation, your account along with all associated
+                data will be immediately deleted. You will receive a notification confirming the deletion.
+            </li>
+        </ol>
+
+        <h3>Important Notes</h3>
+        <ul>
+            <li><strong>Data Retention:</strong> According to our data retention policy, some data may be retained in an
+                anonymized or archived form to comply with legal or regulatory requirements.
+            </li>
+            <li><strong>Support:</strong> If you encounter any issues during the deletion process or have any questions,
+                our in-app support team is here to assist you.
+            </li>
+        </ul>
+
+        <p>By providing this feature, we aim to give you full control over your personal data and privacy, offering a
+            straightforward and immediate way to manage your information within the app.</p>
+    </div>
+
 </div>
 </body>
 </html>
