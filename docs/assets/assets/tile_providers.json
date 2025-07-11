@@ -1,0 +1,38 @@
+[
+  {
+    "name": "OpenStreetMap",
+    "urlTemplate": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "attribution": "OpenStreetMap contributors",
+    "urlAttribution": "https://openstreetmap.org/copyright"
+  },
+  {
+    "name": "CARTO Positron (Light map)",
+    "urlTemplate": "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+    "attribution": "Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.",
+    "urlAttribution": "https://carto.com/attributions"
+  },
+  {
+    "name": "CARTO Dark Matter (Dark map)",
+    "urlTemplate": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+    "attribution": "Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.",
+    "urlAttribution": "https://carto.com/attributions"
+  },
+  {
+    "name": "Esri World Topo Map",
+    "urlTemplate": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
+    "attribution": "Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community",
+    "urlAttribution": "https://www.esri.com/"
+  },
+  {
+    "name": "Esri World Street Map",
+    "urlTemplate": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+    "attribution": "Esri, DeLorme, NAVTEQ, OpenStreetMap contributors, and the GIS User Community",
+    "urlAttribution": "https://www.esri.com/"
+  },
+  {
+    "name": "Esri World Imagery",
+    "urlTemplate": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    "attribution": "Esri, Maxar, Earthstar Geographics, and the GIS User Community",
+    "urlAttribution": "https://www.esri.com/"
+  }
+]
