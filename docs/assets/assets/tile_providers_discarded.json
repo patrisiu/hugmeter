@@ -1,0 +1,20 @@
+[
+  {
+    "name": "CARTO Dark Matter (Dark map)",
+    "urlTemplate": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+    "attribution": "CARTO, OpenStreetMap contributors",
+    "urlAttribution": "https://carto.com/attributions"
+  },
+  {
+    "name": "Humanitarian",
+    "urlTemplate": "https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
+    "attribution": "OpenStreetMap contributors",
+    "urlAttribution": "https://openstreetmap.org/copyright"
+  },
+  {
+    "name": "OpenGeofiction",
+    "urlTemplate": "https://tile.opengeofiction.net/ogf-carto/{z}/{x}/{y}.png",
+    "attribution": "OpenGeofiction contributors",
+    "urlAttribution": "https://opengeofiction.net/copyright"
+  }
+]
