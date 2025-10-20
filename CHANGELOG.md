@@ -5,7 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.25.22] - 2025-10-20
+## [Unreleased]
+
+### Changed
+
+- Improved Material banners usage to display relevant information nicely.
+
+### Removed
+
+- Cleaning code.
+
+### Fixed
+
+- Removed Travel Hug feature start button from Web version.
+- Publish from Travel Hug feature the configured name on Account Management.
+
+## [4.25.23] - 2025-10-20
 
 ### Added
 
