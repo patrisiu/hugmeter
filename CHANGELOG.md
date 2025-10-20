@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.25.18] - 2025-10-19
+## [4.25.22] - 2025-10-20
 
 ### Added
 
@@ -15,13 +15,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Refactorized Hug Degrees First and Infinite to avoid duplicated.
+- Workmanager notification debug from last plugin upgrade.
+- Increased discoverable Hug Degrees.
 - Workmanager plugin updated for background tasks when Location Updates enabled.
 - onCreate behavior to avoid launch the app when accessing to a generic hugmeter url.
 - Gradle update.
 
 ### Removed
+
 - GoogleAuthService class.
-- Unused code.
+- Cleaning code.
+
+### Fixed
+
+- Set unique task name when registering one off background task to be executed every minute.
+- Registered FirebaseAnalyticsService on background dependencies required after removed GoogleAuthService class.
+- Registered AppModel on background dependencies required after removed GoogleAuthService class.
 
 ## [4.25.11] - 2025-08-23
 
