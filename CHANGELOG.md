@@ -5,31 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-### Changed
-
-- Improved Material banners usage to display relevant information nicely.
-
-### Removed
-
-- Cleaning code.
-
-### Fixed
-
-- Removed Travel Hug feature start button from Web version.
-- Publish from Travel Hug feature the configured name on Account Management.
-
-## [4.25.23] - 2025-10-20
+## [4.25.24] - 2025-10-22
 
 ### Added
 
+- Rewards greeting announcement to active users.
 - Refresh location when long press on self center on the map button.
 - Feature Disabled centralized configuration.
 - CHANGELOG.md
 
 ### Changed
 
+- Refactorized Notification banners.
+- Improved responsiveness experience when the app resumes after being paused.
+- Improved Material banners usage to display relevant information nicely.
 - Refactorized Hug Degrees First and Infinite to avoid duplicated.
 - Workmanager notification debug from last plugin upgrade.
 - Increased discoverable Hug Degrees.
@@ -44,6 +33,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Wrong math division breaking the Rewards and Status calculation.
+- Removed Travel Hug feature start button from Web version.
+- Publish from Travel Hug feature the configured name on Account Management.
 - Set unique task name when registering one off background task to be executed every minute.
 - Registered FirebaseAnalyticsService on background dependencies required after removed GoogleAuthService class.
 - Registered AppModel on background dependencies required after removed GoogleAuthService class.
