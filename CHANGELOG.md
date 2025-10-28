@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Wishlist
+
+- AI integration with firebase_ai
+- Server campaigns
+- Anonymized accounts
+
+## [4.26.0] - 2025-10-28
+
+### Added
+
+- iOS background refresh permission check.
+- Investigation for the latest Workmanager plugin.
+- Hugs Send and Received trend chart on Account Management screen.
+
+### Changed
+
+- Libraries upgrade.
+- Standardized analytics events.
+
 ## [4.25.24] - 2025-10-22
 
 ### Added
