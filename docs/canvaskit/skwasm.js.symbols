@@ -366,10 +366,10 @@
 365:std::__2::basic_string<char\2c\20std::__2::char_traits<char>\2c\20std::__2::allocator<char>>::operator=\5babi:nn180100\5d\28char\20const*\29
 366:skia_private::TArray<std::__2::unique_ptr<SkSL::Statement\2c\20std::__2::default_delete<SkSL::Statement>>\2c\20true>::push_back\28std::__2::unique_ptr<SkSL::Statement\2c\20std::__2::default_delete<SkSL::Statement>>&&\29
 367:bool\20std::__2::operator==\5babi:nn180100\5d<wchar_t\2c\20std::__2::char_traits<wchar_t>>\28std::__2::istreambuf_iterator<wchar_t\2c\20std::__2::char_traits<wchar_t>>\20const&\2c\20std::__2::istreambuf_iterator<wchar_t\2c\20std::__2::char_traits<wchar_t>>\20const&\29
-368:SkMatrix::invert\28\29\20const
-369:std::__throw_bad_array_new_length\5babi:ne180100\5d\28\29
-370:skia_private::AutoSTMalloc<17ul\2c\20SkPoint\2c\20void>::~AutoSTMalloc\28\29
-371:skia::textlayout::ParagraphImpl::getUTF16Index\28unsigned\20long\29\20const
+368:std::__throw_bad_array_new_length\5babi:ne180100\5d\28\29
+369:skia_private::AutoSTMalloc<17ul\2c\20SkPoint\2c\20void>::~AutoSTMalloc\28\29
+370:skia::textlayout::ParagraphImpl::getUTF16Index\28unsigned\20long\29\20const
+371:SkMatrix::invert\28\29\20const
 372:FT_Stream_ExitFrame
 373:sk_sp<SkTypeface>::reset\28SkTypeface*\29
 374:SkSL::Transform::\28anonymous\20namespace\29::BuiltinVariableScanner::sortNewElements\28\29::'lambda'\28SkSL::ProgramElement\20const*\2c\20SkSL::ProgramElement\20const*\29::operator\28\29\28SkSL::ProgramElement\20const*\2c\20SkSL::ProgramElement\20const*\29\20const

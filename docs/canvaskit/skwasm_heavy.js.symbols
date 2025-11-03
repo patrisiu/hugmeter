@@ -381,11 +381,11 @@
 380:std::__2::basic_string<char\2c\20std::__2::char_traits<char>\2c\20std::__2::allocator<char>>::operator=\5babi:nn180100\5d\28char\20const*\29
 381:skia_private::TArray<std::__2::unique_ptr<SkSL::Statement\2c\20std::__2::default_delete<SkSL::Statement>>\2c\20true>::push_back\28std::__2::unique_ptr<SkSL::Statement\2c\20std::__2::default_delete<SkSL::Statement>>&&\29
 382:bool\20std::__2::operator==\5babi:nn180100\5d<wchar_t\2c\20std::__2::char_traits<wchar_t>>\28std::__2::istreambuf_iterator<wchar_t\2c\20std::__2::char_traits<wchar_t>>\20const&\2c\20std::__2::istreambuf_iterator<wchar_t\2c\20std::__2::char_traits<wchar_t>>\20const&\29
-383:SkMatrix::invert\28\29\20const
-384:strncmp
-385:skia_private::AutoSTMalloc<17ul\2c\20SkPoint\2c\20void>::~AutoSTMalloc\28\29
-386:skia::textlayout::ParagraphImpl::getUTF16Index\28unsigned\20long\29\20const
-387:icu_77::UVector32::addElement\28int\2c\20UErrorCode&\29
+383:strncmp
+384:skia_private::AutoSTMalloc<17ul\2c\20SkPoint\2c\20void>::~AutoSTMalloc\28\29
+385:skia::textlayout::ParagraphImpl::getUTF16Index\28unsigned\20long\29\20const
+386:icu_77::UVector32::addElement\28int\2c\20UErrorCode&\29
+387:SkMatrix::invert\28\29\20const
 388:FT_Stream_ExitFrame
 389:strstr
 390:sk_sp<SkTypeface>::reset\28SkTypeface*\29

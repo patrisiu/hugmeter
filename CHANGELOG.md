@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.27.1] - 2025-11-03
+
+### Added
+
+- Reward badges achieved on Account Management screen.
+
+### Changed
+
+- Multi Hug Option button was enhanced to promote its usage.
+- Highlighted the Custom Hugs sent in Sent Virtual Hugs list.
+
+### Fixed
+
+- Layout and photo displayed when Custom Hug received.
+- Achievement notification displayed when user has a new feature enabled.
+
 ## [4.27.0] - 2025-11-01
 
 ### Added
