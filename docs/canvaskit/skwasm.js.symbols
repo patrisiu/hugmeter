@@ -10989,7 +10989,7 @@
 10988:\28anonymous\20namespace\29::PathSubRun::unflattenSize\28\29\20const
 10989:\28anonymous\20namespace\29::PathSubRun::draw\28SkCanvas*\2c\20SkPoint\2c\20SkPaint\20const&\2c\20sk_sp<SkRefCnt>\2c\20std::__2::function<void\20\28sktext::gpu::AtlasSubRun\20const*\2c\20SkPoint\2c\20SkPaint\20const&\2c\20sk_sp<SkRefCnt>\2c\20sktext::gpu::RendererData\29>\20const&\29\20const
 10990:\28anonymous\20namespace\29::PathSubRun::doFlatten\28SkWriteBuffer&\29\20const
-10991:\28anonymous\20namespace\29::MipMapRec::~MipMapRec\28\29_3016
+10991:\28anonymous\20namespace\29::MipMapRec::~MipMapRec\28\29_3015
 10992:\28anonymous\20namespace\29::MipMapRec::getCategory\28\29\20const
 10993:\28anonymous\20namespace\29::MipMapRec::diagnostic_only_getDiscardable\28\29\20const
 10994:\28anonymous\20namespace\29::MipMapRec::bytesUsed\28\29\20const
@@ -12074,7 +12074,7 @@
 12073:SkBlendModeBlender::getTypeName\28\29\20const
 12074:SkBlendModeBlender::flatten\28SkWriteBuffer&\29\20const
 12075:SkBlendModeBlender::asBlendMode\28\29\20const
-12076:SkBitmapDevice::~SkBitmapDevice\28\29_3038
+12076:SkBitmapDevice::~SkBitmapDevice\28\29_3037
 12077:SkBitmapDevice::snapSpecial\28SkIRect\20const&\2c\20bool\29
 12078:SkBitmapDevice::setImmutable\28\29
 12079:SkBitmapDevice::replaceClip\28SkIRect\20const&\29
@@ -12109,7 +12109,7 @@
 12108:SkBitmapDevice::clipPath\28SkPath\20const&\2c\20SkClipOp\2c\20bool\29
 12109:SkBitmapDevice::baseRecorder\28\29\20const
 12110:SkBitmapDevice::android_utils_clipAsRgn\28SkRegion*\29\20const
-12111:SkBitmapCache::Rec::~Rec\28\29_2999
+12111:SkBitmapCache::Rec::~Rec\28\29_2998
 12112:SkBitmapCache::Rec::postAddInstall\28void*\29
 12113:SkBitmapCache::Rec::getCategory\28\29\20const
 12114:SkBitmapCache::Rec::canBePurged\28\29

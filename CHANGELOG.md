@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.28.0] - 2025-12-26
+## [4.28.0] - 2025-12-28
 
 ### Added
 
@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Refactor AuthService applying Dependency Inversion Principle.
 - Migrated GoogleSignIn to CredentialManager.
 - Exception handling on AI response.
 
@@ -416,7 +417,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Migrate Hug Selected Options to be displayed fully with slider.
 - Golden Hug Refactor.
-- Delayed Virtual Hug received disclaimer.
+- Delayed Virtual Hug received disclaimer. 
 - Send Virtual Hug without disclaimer confirmation when triggered from the button.
 - Libraries upgrade.
 - Don't display Myself on the map when Location Detail is not Coordinates.
@@ -443,7 +444,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Back button behavior to navigate avoiding suspending the app.
 - Codemagic configuration for iOS release.
 
-### Changed
+### Changed 
 
 - Restore allow to send Virtual Hug from Long Press.
 - Hug Degrees refactor.

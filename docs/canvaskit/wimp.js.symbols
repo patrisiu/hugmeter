@@ -10189,7 +10189,7 @@
 10188:\28anonymous\20namespace\29::PathFillWriter::RecordConic\28impeller::TPoint<float>\2c\20impeller::TPoint<float>\2c\20impeller::TPoint<float>\2c\20float\29
 10189:\28anonymous\20namespace\29::PathFillWriter::EndContour\28impeller::TPoint<float>\2c\20bool\29
 10190:\28anonymous\20namespace\29::PathFillWriter::BeginContour\28impeller::TPoint<float>\2c\20bool\29
-10191:\28anonymous\20namespace\29::MipMapRec::~MipMapRec\28\29_3345
+10191:\28anonymous\20namespace\29::MipMapRec::~MipMapRec\28\29_3344
 10192:\28anonymous\20namespace\29::MipMapRec::getCategory\28\29\20const
 10193:\28anonymous\20namespace\29::MipMapRec::diagnostic_only_getDiscardable\28\29\20const
 10194:\28anonymous\20namespace\29::MipMapRec::bytesUsed\28\29\20const
@@ -11106,7 +11106,7 @@
 11105:SkBlendModeBlender::getTypeName\28\29\20const
 11106:SkBlendModeBlender::flatten\28SkWriteBuffer&\29\20const
 11107:SkBlendModeBlender::asBlendMode\28\29\20const
-11108:SkBitmapDevice::~SkBitmapDevice\28\29_3366
+11108:SkBitmapDevice::~SkBitmapDevice\28\29_3365
 11109:SkBitmapDevice::snapSpecial\28SkIRect\20const&\2c\20bool\29
 11110:SkBitmapDevice::setImmutable\28\29
 11111:SkBitmapDevice::replaceClip\28SkIRect\20const&\29
