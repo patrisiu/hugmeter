@@ -46,18 +46,7 @@ manage several Huggers Groups.
 HugMeter started as a [Flutter](https://flutter.dev/) project for learning purposes with the goal of staying connected
 with loved ones by expressing affection through hugs when people are nearby.
 
-Over time, the app has evolved to send alerts when a Hugger is sharing their location and is in close proximity.
-Additionally, [Virtual Hugs](#purple_heart-send-virtual-hugs) can be sent across the world, regardless of the distance.
-
-This is not intended to be a real-time location tracking tool. People can choose to share their approximate location
-periodically —every hour, once per day, or only when using the app— or they can remain completely hidden.
-
-The application stores the last location notified for those Huggers with the feature enabled, so it may be outdated and
-not entirely reliable. In any case, this information is only used between users who have enabled this feature, and it is
-not shared with third parties. For more details, please refer to the [Privacy Policy](#privacy-policy) section.
-
-In addition, HugMeter allows you to organize your Huggers into different groups, giving you control over whom you share
-your location with and stay connected with loved ones in various ways.
+Over time, the app has evolved to help you stay close to your loved ones, whether through Virtual Hugs sent across the world or alerts when a friend is nearby.
 
 Thanks to the collaboration of the Hug Testers, new features are under development, but the main purpose of the app is
 to help people share love through hugs and let them know we care :)
@@ -66,39 +55,30 @@ to help people share love through hugs and let them know we care :)
 
 ## Privacy Policy
 
-At HugMeter, we take your privacy seriously. We are committed to ensuring that your personal information is protected
-and that you have a safe and secure experience while using our app.
+At HugMeter, we believe that sharing love shouldn't mean sacrificing your privacy. Our app is designed to be a "privacy-first" experience. We collect the bare minimum data required to send hugs and measure distance.
 
-### Information We Collect
+### 1. No Identity Tracking
+We do not collect personal information such as your name, email address, or phone number.
+Your identity within the app is designed to keep you in control.
 
-We want to make it clear what information we do and do not collect:
+### 2. Your Location, Your Choice
+* **Not Real-Time:** HugMeter is not a real-time tracking tool.
+* **Control Frequency:** You decide how often your approximate location is updated—choose between every hour, once per day, only when the app is open, or stay completely hidden.
+* **Proximity Only:** Location data is used solely to notify you and your permitted "Huggers" when you are close enough for a real-life embrace.
 
-* **User-Provided Information**: We do not collect or store any of your personal information, such as your name, contact
-  information, email address, or any other personal data.
+### 3. Group-Based Sharing
+You have total control over who sees your status. By organizing "Huggers" into different groups, you choose exactly which friends or family members can see your proximity and who cannot.
 
-* **Location Data**: We do collect and store the last location data received, but this is done under specific
-  conditions. This location data is only stored for users who have enabled the location-sharing feature in the app.
-  Furthermore, this data is not shared with other users by default; it is only shared with those users whom you have
-  granted permission to access your location.
+### 4. Data Security & Third Parties
+* **No Selling Data:** Your information is never shared with, or sold to, third parties.
+* **Limited Storage:** We only store the last notified location for users with location-sharing enabled.
+* **Encryption:** Data is handled securely to ensure that your connections remain private.
 
-### Data Sharing
+### 5. Right to Delete
+You are in control of your data. You can manage your sharing settings or use the in-app Account Deletion feature to permanently remove your data at any time.
 
-We do not share user data, personal or otherwise, with third parties.
-
-### Anonymous Usage Data
-
-In addition to location data, we may collect anonymous usage data to improve the functionality and performance of our
-app. This data is entirely non-identifiable and is used for analytical purposes only.
-
-### Data Security
-
-We take all necessary measures to ensure the security of your data. Rest assured that your privacy is of utmost
-importance to us.
-
-### Contact Us
-
-If you have any questions or concerns regarding your privacy, the use of your data, or the location-sharing feature,
-please feel free to contact us at hugmeter@patrisiu.com.
+### 6. Contact Us
+If you have any questions or concerns regarding your privacy, the use of your data, or the location-sharing feature, please feel free to contact us at hugmeter@patrisiu.com.
 
 ## Terms of Service
 

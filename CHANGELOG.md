@@ -460,15 +460,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Application design revamp: The map becomes the center of the app usage.
 
-## [3.0.0] - Pending
+## [3.0.0] 
 
-## [2.0.0] - Pending
+### Changed
 
-## [1.0.0] - Pending
+- Encryption applied on data accounts and messages transmission.
+- Reorganization to Domain Driven Design architecture.
 
-Realtime Database
-Pseudonymised Yep
-Encryption
-Anonymisation (not yet)
+## [2.0.0]
 
-## [0.0.0] - Pending
+### Added
+
+- Pseudonymised accounts.
+- Realtime Database implementation.
+
+### Removed
+
+- Google Spreadsheet to store and share.
+
+## [1.0.0]
+
+### Added
+
+- Google Spreadsheet to store and share as Proof of Concept.
