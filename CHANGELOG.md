@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.28.2] - 2026-01-04
+
+### Added
+
+- Preload huggers from cache to improve user experience on start up.
+
+### Changed
+
+- Updated About section to align it with the website.
+- Refactor Database errors prompt to minimize noise when user logout.
+- Replaced CredentialManager by a fork trying to fix iOS implementation login.
+- Snow effect propagated to all screens.
+- Lazy Hugs notifications rule updated to 90 minutes.
+- Added Restart button when app failure loading data.
+
+### Fixed
+
+- Hug Trend Chart data displayed after new year.
+
 ## [4.28.1] - 2025-12-30
 
 ### Added
@@ -418,7 +437,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Migrate Hug Selected Options to be displayed fully with slider.
 - Golden Hug Refactor.
-- Delayed Virtual Hug received disclaimer. 
+- Delayed Virtual Hug received disclaimer.
 - Send Virtual Hug without disclaimer confirmation when triggered from the button.
 - Libraries upgrade.
 - Don't display Myself on the map when Location Detail is not Coordinates.
@@ -445,7 +464,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Back button behavior to navigate avoiding suspending the app.
 - Codemagic configuration for iOS release.
 
-### Changed 
+### Changed
 
 - Restore allow to send Virtual Hug from Long Press.
 - Hug Degrees refactor.
@@ -460,7 +479,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Application design revamp: The map becomes the center of the app usage.
 
-## [3.0.0] 
+## [3.0.0]
 
 ### Changed
 
