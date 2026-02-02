@@ -5,10 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.28.3] - 2026-01-19
+## [4.28.5] - 2026-02-02
+
+### Added
+
+- Celebration effect to display past month most Hugged.
 
 ### Changed
 
+- More season playful screen effects.
+- Timed effects when adding a new hugger.
+- Analytics time measurement refactor.
+
+## [4.28.4] - 2026-01-20
+
+### Added
+
+- More effects according to user behavior.
+- Milestone Hug introduced to share world hug insights.
+
+### Changed
+
+- Data from Hugs evolution chart displayed in X ascendant order.
 - Restored GoogleSignIn library to unblock iOS login.
 - Google and Apple compliant login buttons.
 
