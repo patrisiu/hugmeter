@@ -5,11 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.29.0] - 2026-02-21
+## [4.30.0] - 2026-02-24
 
 ### Added
 
+- Released Travel Hug feature on iOS.
+- Collaborative approach to enable Location Updates on iOS.
 - Sign in with Apple.
+- Location Updates every 2 minutes on Android for testing.
+
+### Changed
+
+- Improved location information for better performance.
+- Refactor Generic Notification messaging.
+- Database to offline and online only when app resumed.
+- Reduced timeout on iOS background fetch.
+- Adjusted avatar icon when no Apple image account provided.
+- Refactor internal exceptions.
+- Testing Location Updates background execution on iOS.
+- Reload effects when app resumed after long time.
 
 ## [4.28.6] - 2026-02-04
 
