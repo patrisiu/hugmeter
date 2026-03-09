@@ -5,22 +5,48 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.30.5] - 2026-03-02
+## [4.31.0] - 2026-03-09
 
 ### Added
 
+- Day Night shadow effect according to time zone.
+- Selectable avatar option when user without photoUrl.
+- Generate avatar when signed user without photoUrl.
+
+### Changed
+
+- Spin settings when initial app loading.
+- Refactor notification message for internal announcements.
+- Fine tune Travel Hug behavior on iOS.
+
+## [4.30.9] - 2026-03-04
+
+### Added
+
+- Day Night shadow effect according to time zone.
+- Selectable avatar option when user without photoUrl.
+- Generate avatar when signed user without photoUrl.
 - Navigation button on login screen to HugMeter website.
 
 ### Changed
 
+- Spin settings when initial app loading.
+- Refactor notification message for internal announcements.
+- Fine tune Travel Hug behavior on iOS.
+- Improved rewarded score display.
+- Improved display effects timing.
+- Increased Hug Degrees cache time.
 - Location Updates improvement for iOS users.
-- Minor announcement updates.
 - Highlight huggers sorting option applied.
 - Refresh rewards when app remains running over time.
 - Update AI model to Gemini 2.5 Flash Lite.
 
 ### Fixed
 
+- Standard way to catch runtime exceptions.
+- Wrong behavior when Disabled Notifications applied.
+- UI buttons behavior when sending a Hug.
+- Announcements and Effects behaviors.
 - Hugger Groups management.
 - Background execution migration failures.
 - Wrong timestamp when no location published.
@@ -558,11 +584,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Pseudonymised accounts.
-- Realtime Database implementation.
+- Realtime Database implementation to store and share between contacts.
 
 ### Removed
 
-- Google Spreadsheet to store and share.
+- Google Spreadsheet to store and share between contacts.
 
 ## [1.0.0]
 
