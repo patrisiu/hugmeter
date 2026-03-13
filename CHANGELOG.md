@@ -580,17 +580,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Application design revamp: The map becomes the center of the app usage.
 
-## [3.0.0]
+## [3.0.0] - May 2023
 
 ### Changed
 
 - Encryption applied on data accounts and messages transmission.
 - Reorganization to Domain Driven Design architecture.
 
-## [2.0.0]
+## [2.0.0] - April 2023
 
 ### Added
 
+- Google Play distribution on Closed Testing scope.
 - Pseudonymised accounts.
 - Realtime Database implementation to store and share between contacts.
 
@@ -598,8 +599,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Google Spreadsheet to store and share between contacts.
 
-## [1.0.0]
+## [1.0.0] - August 2021
 
 ### Added
 
 - Google Spreadsheet to store and share as Proof of Concept.
+- First app implementation distributed by local APK installation.
