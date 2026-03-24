@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.32.0] - 2026-03-24
+
+### Added
+
+- Link to share the App across platforms.
+
+### Changed
+
+- Apple Guideline 5.1.1 (ii) location usage description.
+- Travel Hug feature improvement.
+
+### Fixed
+
+- Deeplink Bounce Back effect on iOS.
+
 ## [4.31.3] - 2026-03-16
 
 ### Added
