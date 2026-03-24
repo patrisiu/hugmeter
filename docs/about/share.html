@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HugMeter | Virtual Hugs for Long Distance Relationships</title>
+    <meta name="description"
+          content="Send a Virtual Hug to show you care without the pressure of a text. Measure distance to loved ones and get notified when a hug is near.">
+    <script type="text/javascript">
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/android/i.test(userAgent)) {
+            window.location.replace("https://play.google.com/store/apps/details?id=com.patrisiu.hugmeter");
+        } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            // TODO: Replace with your actual App Store URL
+            window.location.replace("https://apps.apple.com/app/hugmeter");
+        } else {
+            window.location.replace("index.html");
+        }
+    </script>
+</head>
+<body>
+<p>Redirecting...</p>
+</body>
+</html>
