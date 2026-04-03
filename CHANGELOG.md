@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.33.0] - 2026-04-03
+
+### Changed
+
+- Enabled Monthly Top Hugged celebration effect.
+
 ## [4.32.3] - 2026-03-30
 
 ### Added
@@ -116,7 +122,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Celebration effect to display past month most Hugged.
+- Celebration effect to display past month top Hugged.
 
 ### Changed
 
@@ -400,7 +406,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Hug Statistics with Most Hugged added on profile screen.
+- Hug Statistics with Top Hugged added on profile screen.
 
 ## [4.14.7] - 2025-01-31
 
