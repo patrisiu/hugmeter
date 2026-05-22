@@ -16,6 +16,7 @@
         }
 
         .header {
+            position: relative;
             background: rgba(255, 255, 255, 0.8);
             border-bottom: 1px solid #ccc;
             padding: 10px;
@@ -24,6 +25,27 @@
             text-align: center;
             z-index: 1000;
             font-family: 'Ubuntu', sans-serif; /* Apply Ubuntu font to the header */
+        }
+
+        .home-button {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #7986CB;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        .home-button:hover {
+            color: #3949AB;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .home-button svg {
+            display: block;
         }
 
         #map {
@@ -45,7 +67,14 @@
     </style>
 </head>
 <body>
-<div class="header">Realtime Virtual Hugs</div>
+<div class="header">
+    Realtime Virtual Hugs
+    <a href="../about/" class="home-button" title="Home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+        </svg>
+    </a>
+</div>
 <div id="map"></div>
 <div class="legend" id="legend">
     <strong>Hugs Sent:</strong> <span id="sentCount">0</span><br>
