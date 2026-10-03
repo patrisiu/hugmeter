@@ -5,14 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.33.1] - 2026-10-03
+## [4.33.2] - 2026-10-03
 
 ### Changed
 
-- Cosmetic arrow back when Hugger Manage is opened.
+- Markdown text message on Milestone Hug.
+- Cosmetic arrow back when Hugger Manager is opened.
 - Increase placemark when no description.
 - Apply Tile Provider API Key when required.
-- Sdk version update.
+- SDK version update.
 
 ## [4.33.0] - 2026-04-03
 
