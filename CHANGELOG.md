@@ -5,19 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.33.5] - 2026-10-16
+## [4.34.0] - 2026-10-18
+
+### Changed
+
+- Virtual Hug options redesign to engage with the reward possibilities.
+
+## [4.33.6] - 2026-10-17
+
+### Added
+
+- Cleaned up Google Play Core build warnings to ensure smooth release builds.
+- ProGuard rule to preserve WorkDatabase_Impl and prevent WorkManager startup crash.
 
 ### Changed
 
 - Restore location accuracy and handle timeout error.
 - Enhance Travel Hug notification option.
 
-## [4.33.4] - 2026-10-15
+### Fixed
 
-### Added
-
-- Cleaned up Google Play Core build warnings to ensure smooth release builds.
-- ProGuard rule to preserve WorkDatabase_Impl and prevent WorkManager startup crash.
+- First Degrees widget description.
 
 ## [4.33.3] - 2026-10-14
 
