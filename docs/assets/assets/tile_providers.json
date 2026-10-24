@@ -9,7 +9,8 @@
     "name": "CARTO Positron (Light map)",
     "urlTemplate": "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
     "attribution": "CARTO, OpenStreetMap contributors",
-    "urlAttribution": "https://carto.com/attributions"
+    "urlAttribution": "https://carto.com/attributions",
+    "apiKey": "cb1_46ur_1_88a92115c622a96b3e1e1e7e"
   },
   {
     "name": "Esri World Topo Map",
