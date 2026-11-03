@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.36.0] - 2026-11-03
+
+### Added
+
+- Firebase App Check to re-enable AI capabilities enforced.
+- Literal strings for Google Play translation.
+- Disclaimer on Sign Out action to inform the user.
+
+### Changed
+
+- Updated AI model to Gemini 3.8 Flash.
+- Upgraded Firebase dependencies.
+- Travel Hug button changes appearance when enabled.
+
+### Removed
+
+- Hugger Contacts feature and access to Device contacts
+
 ## [4.35.0] - 2026-10-25
 
 ### Added
@@ -660,7 +678,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Drawler Title back icon color.
 
-### [4.0.0] - 2024-09-01
+## [4.0.0] - 2024-09-01
 
 ### Changed
 
